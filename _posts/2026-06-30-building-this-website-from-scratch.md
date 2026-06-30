@@ -14,11 +14,6 @@ comments: false
 # Why I Started This Blog
 
 For quite a long time, I have wanted a place to record my growth.
----
-
-# Why I Started This Blog
-
-For quite a long time, I have wanted a place to record my growth.
 
 As a PhD student, every day brings something new to learn—reading papers, exploring unfamiliar ideas, understanding source code, debugging strange issues, and occasionally feeling completely lost.
 
