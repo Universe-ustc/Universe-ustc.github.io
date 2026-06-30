@@ -1,6 +1,6 @@
 ---
 title: "My First Blog: The Beginning of My Journey"
-date: 2026-06-30 22:00:00 +0800
+date: 2026-06-30 22:22:00 +0800
 
 categories:
   - Life
