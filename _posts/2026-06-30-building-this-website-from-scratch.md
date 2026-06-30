@@ -11,7 +11,10 @@ toc: true
 comments: false
 ---
 
-# My First Blog: The Beginning of My Journey
+## Why I Started This Blog
+
+For quite a long time, I have wanted a place to record my growth.
+---
 
 ## Why I Started This Blog
 
