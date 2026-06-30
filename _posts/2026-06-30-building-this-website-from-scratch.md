@@ -11,12 +11,12 @@ toc: true
 comments: false
 ---
 
-## Why I Started This Blog
+# Why I Started This Blog
 
 For quite a long time, I have wanted a place to record my growth.
 ---
 
-## Why I Started This Blog
+# Why I Started This Blog
 
 For quite a long time, I have wanted a place to record my growth.
 
@@ -34,7 +34,7 @@ Perhaps years from now, I will return to this first post and remember how everyt
 
 ---
 
-## Why GitHub Pages?
+# Why GitHub Pages?
 
 This is not actually my first attempt at building a personal website.
 
@@ -60,7 +60,7 @@ Instead of using a tool that generated everything automatically, I learned how m
 
 ---
 
-## Building This Website
+# Building This Website
 
 Although the final result looks simple, getting here was not completely smooth.
 
@@ -91,7 +91,7 @@ Seeing the green check mark in GitHub Actions was surprisingly satisfying.
 
 ---
 
-## What This Website Will Become
+# What This Website Will Become
 
 Today, this website is just a blog.
 
@@ -118,7 +118,7 @@ Those are the moments I hope to preserve here.
 
 ---
 
-## The First Step
+# The First Step
 
 Every journey begins somewhere.
 
