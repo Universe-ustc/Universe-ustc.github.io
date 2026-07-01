@@ -9,7 +9,7 @@ order: 1
 
 I am a PhD student at the School of Computer Science and Technology, [University of Science and Technology of China (USTC)](https://www.ustc.edu.cn/). My research focuses on **LLM Agents**, **Agent Memory**, and **Tool Learning**.
 
-Before starting my PhD, I completed my Master's degree at USTC in Safety Science and Engineering, where I worked on multimodal learning and intelligent sensing systems. I am passionate about building capable and reliable AI agents that can interact with the real world through tools.
+Before entering my PhD program, I spent three years in USTC's graduate program in Safety Science and Engineering, where I worked on multimodal learning and intelligent sensing systems. I then transferred directly to a PhD program in Computer Science and Technology through a master's-to-PhD track, changing my research field along the way. I am passionate about building capable and reliable AI agents that can interact with the real world through tools.
 
 <div class="section-break"></div>
 
@@ -27,11 +27,12 @@ Before starting my PhD, I completed my Master's degree at USTC in Safety Science
 </div>
 
 <div class="timeline-item">
-  <div class="timeline-date">2022.09 – 2025.06</div>
+  <div class="timeline-date">2022.09 – 2025.09</div>
   <div class="timeline-content">
-    <strong>M.Sc. in Safety Science and Engineering</strong><br>
+    <strong>M.Sc. Program in Safety Science and Engineering</strong> (Direct PhD Transfer)<br>
     University of Science and Technology of China<br>
     <em>GPA: 3.94/4.3 · Average: 90.6</em> · First-class Academic Scholarship (3 years)<br>
+    Transferred directly to PhD in Computer Science and Technology; master's degree not conferred<br>
     Student Deputy Secretary, Youth League Committee, State Key Laboratory of Fire Science<br>
     Student Director, Youth Innovation and Entrepreneurship Center
   </div>
