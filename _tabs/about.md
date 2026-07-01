@@ -9,7 +9,7 @@ order: 1
 
 I am a PhD student at the School of Computer Science and Technology, [University of Science and Technology of China (USTC)](https://www.ustc.edu.cn/). My research focuses on **LLM Agents**, **Agent Memory**, and **Tool Learning**.
 
-Before entering my PhD program, I spent three years in USTC's graduate program in Safety Science and Engineering, where I worked on multimodal learning and intelligent sensing systems. I then transferred directly to a PhD program in Computer Science and Technology through a master's-to-PhD track, changing my research field along the way. I am passionate about building capable and reliable AI agents that can interact with the real world through tools.
+Before entering my PhD program, I spent three years in USTC's graduate program in Safety Science and Engineering, where I worked on multimodal learning and intelligent sensing systems. I am passionate about building capable and reliable AI agents that can interact with the real world through tools.
 
 <div class="section-break"></div>
 
