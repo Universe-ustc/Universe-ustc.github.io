@@ -26,7 +26,7 @@ order: 2
   </li>
 </ul>
 
-## Multimodal Learning
+## Information Fusion
 
 <ul class="paper-list">
   <li>
