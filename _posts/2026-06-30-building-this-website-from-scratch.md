@@ -1,13 +1,15 @@
 ---
 title: "My First Blog: The Beginning of My Journey"
-date: 2026-06-30 22:22:00 +0800
-
+date: 2026-06-30 22:22:00 +08:00
 categories:
   - life
-
-tags: [first-post, github-pages, chirpy, blogging, phd-journey]
-
-toc: true
+tags:
+  - first-post
+  - github-pages
+  - chirpy
+  - blogging
+  - phd-journey
+toc: false
 comments: false
 ---
 
