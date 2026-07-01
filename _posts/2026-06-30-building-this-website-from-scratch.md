@@ -86,6 +86,43 @@ Little by little, the website finally came together.
 
 Seeing the green check mark in GitHub Actions was surprisingly satisfying.
 
+### A Deployment Pitfall Worth Remembering
+
+![GitHub Actions HTML-Proofer error: 'a' tag is missing a reference](/assets/img/posts/github-actions-htmlproofer-error.png)
+
+One issue took me longer than expected to figure out.
+
+After pushing my first blog post, GitHub Actions kept failing at the **Test site** step. The error message looked like this:
+
+```
+'a' tag is missing a reference
+```
+
+At first, I assumed the problem was in the Markdown file itself. The log even pointed to `_site/posts/building-this-website-from-scratch/index.html`, which made it feel like my post content was broken.
+
+But the post was fine.
+
+The real issue was in `_config.yml`. In the Chirpy theme, if you do not specify an author in a post, the theme uses `social.name` as the default author and wraps it in a link using the first item in `social.links`. I had left all the social links commented out, so the generated HTML looked something like:
+
+```html
+<a href="">Yijuan Liang</a>
+```
+
+That empty `href` is exactly what **HTML-Proofer** flags during deployment.
+
+The fix was simple: add at least one valid link under `social.links`, for example:
+
+```yaml
+social:
+  name: Yijuan Liang
+  links:
+    - https://github.com/Universe-ustc
+```
+
+After that, the build passed.
+
+This was a good reminder: deployment errors do not always point to the file that looks suspicious in the log. Sometimes the problem comes from site-wide configuration, not the post content itself.
+
 ---
 
 ## What This Website Will Become
