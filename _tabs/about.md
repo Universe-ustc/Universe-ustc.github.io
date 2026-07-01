@@ -7,7 +7,7 @@ order: 1
 
 ## About Me
 
-I am a PhD student at the School of Computer Science and Technology, [University of Science and Technology of China (USTC)](https://www.ustc.edu.cn/). My research focuses on **LLM Agents**, **Agent Memory**, and **Tool Learning**.
+I am a PhD student at the School of Computer Science and Technology, [University of Science and Technology of China (USTC)](https://www.ustc.edu.cn/). My research focuses on **LLM Agents**, **Harness Engineering**, and **Tool Learning**.
 
 Before entering my PhD program, I spent three years in USTC's graduate program in Safety Science and Engineering, where I worked on multimodal learning and intelligent sensing systems. I am passionate about building capable and reliable AI agents that can interact with the real world through tools.
 
@@ -29,12 +29,9 @@ Before entering my PhD program, I spent three years in USTC's graduate program i
 <div class="timeline-item">
   <div class="timeline-date">2022.09 – 2025.09</div>
   <div class="timeline-content">
-    <strong>M.Sc. Program in Safety Science and Engineering</strong> (Direct PhD Transfer)<br>
+    <strong>Graduate Program in Safety Science and Engineering</strong><br>
     University of Science and Technology of China<br>
-    <em>GPA: 3.94/4.3 · Average: 90.6</em> · First-class Academic Scholarship (3 years)<br>
-    Transferred directly to PhD in Computer Science and Technology; master's degree not conferred<br>
-    Student Deputy Secretary, Youth League Committee, State Key Laboratory of Fire Science<br>
-    Student Director, Youth Innovation and Entrepreneurship Center
+    <em>GPA: 3.94/4.3 · Average: 90.6</em> · First-class Academic Scholarship (3 years)
   </div>
 </div>
 
@@ -52,7 +49,7 @@ Before entering my PhD program, I spent three years in USTC's graduate program i
 
 ## Skills
 
-- **Programming:** Python, MATLAB
+- **Programming:** Python, C, MATLAB
 - **Software & Tools:** PyCharm, Thonny, LabVIEW, SolidWorks, CAD, SPSS, Stata, FDS, PyroSim
 - **Certificates:** National Computer Rank Examination Level 2 (C) · Level 3 (Network Technology) · CSWA (SolidWorks) · Advanced 2D CAD Drafter · English Minor Certificate · Mandarin Proficiency Certificate
 
