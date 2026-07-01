@@ -3,11 +3,7 @@ icon: fas fa-user
 order: 1
 ---
 
-<div class="about-page" markdown="1">
-
-<div class="about-header">
-  <img src="/assets/img/avatar.png" alt="Yijuan Liang" class="about-photo" width="180" height="180">
-  <div class="about-intro">
+<img src="/assets/img/avatar.png" alt="Yijuan Liang" class="about-photo" width="180" height="180">
 
 ## About Me
 
@@ -15,8 +11,7 @@ I am a PhD student at the School of Computer Science and Technology, [University
 
 Before starting my PhD, I completed my Master's degree at USTC in Safety Science and Engineering, where I worked on multimodal learning and intelligent sensing systems. I am passionate about building capable and reliable AI agents that can interact with the real world through tools.
 
-  </div>
-</div>
+<div class="section-break"></div>
 
 ## Education
 
@@ -65,5 +60,3 @@ Before starting my PhD, I completed my Master's degree at USTC in Safety Science
 - **Email:** [yijuanliang0625@gmail.com](mailto:yijuanliang0625@gmail.com)
 - **GitHub:** [Universe-ustc](https://github.com/Universe-ustc)
 - **Google Scholar:** _coming soon_
-
-</div>

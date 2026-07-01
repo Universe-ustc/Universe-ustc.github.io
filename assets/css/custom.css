@@ -10,19 +10,31 @@
   --section-heading-border: rgba(110, 179, 247, 0.25);
 }
 
-/* Page title (h1) on tab pages */
-main .content h1[data-toc-skip] {
-  color: var(--section-heading-color);
+/* Page title (h1) — About, Research, Home, etc. */
+#core-wrapper h1.dynamic-title,
+article h1.dynamic-title {
+  color: var(--section-heading-color) !important;
   font-weight: 700;
   margin-bottom: 1.25rem;
+  padding-bottom: 0.4rem;
+  border-bottom: 3px solid var(--section-heading-border);
 }
 
-/* Section headings (h2) */
-.profile-home h2,
-.about-page h2,
-.content h2,
-#core-wrapper h2 {
-  color: var(--section-heading-color);
+/* Section headings (h2) — all pages */
+#core-wrapper .content h2,
+#core-wrapper .profile-home h1.profile-name,
+article .content h1.profile-name {
+  color: var(--section-heading-color) !important;
+  font-size: 2rem;
+  font-weight: 700;
+  margin-bottom: 0.25rem;
+  padding-bottom: 0;
+  border-bottom: none;
+}
+
+#core-wrapper .profile-home h2,
+article .content h2 {
+  color: var(--section-heading-color) !important;
   font-size: 1.25rem;
   font-weight: 650;
   margin-top: 2rem;
@@ -31,52 +43,43 @@ main .content h1[data-toc-skip] {
   border-bottom: 2px solid var(--section-heading-border);
 }
 
-.content h3,
-.about-page h3,
-#core-wrapper h3 {
-  color: var(--section-heading-color);
+/* Subsection headings (h3) */
+#core-wrapper .content h3,
+article .content h3 {
+  color: var(--section-heading-color) !important;
   font-size: 1.05rem;
   font-weight: 600;
   margin-top: 1.5rem;
   margin-bottom: 0.6rem;
 }
 
-/* About page */
-.about-page .about-header {
-  display: flex;
-  align-items: flex-start;
-  gap: 1.75rem;
-  margin-bottom: 0.5rem;
-}
-
-.about-page .about-photo {
+/* About page photo */
+.about-photo {
+  float: left;
   border-radius: 50%;
-  flex-shrink: 0;
+  margin: 0.25rem 1.75rem 1rem 0;
   object-fit: cover;
-  margin: 0;
+  shape-outside: circle();
 }
 
-.about-page .about-intro {
-  flex: 1;
-  min-width: 0;
+.section-break {
+  clear: both;
+  height: 0;
 }
 
-.about-page .about-intro h2 {
-  margin-top: 0;
-}
-
-.about-page .timeline {
+/* Education timeline */
+.timeline {
   border-left: 2px solid var(--border-color, #dee2e6);
   margin: 0.5rem 0 0 0.5rem;
   padding-left: 1.5rem;
 }
 
-.about-page .timeline-item {
+.timeline-item {
   margin-bottom: 1.75rem;
   position: relative;
 }
 
-.about-page .timeline-item::before {
+.timeline-item::before {
   content: '';
   width: 10px;
   height: 10px;
@@ -87,21 +90,17 @@ main .content h1[data-toc-skip] {
   top: 0.35rem;
 }
 
-.about-page .timeline-date {
+.timeline-date {
   font-weight: 600;
   margin-bottom: 0.25rem;
   color: var(--section-heading-color);
 }
 
-.about-page .timeline-content {
+.timeline-content {
   line-height: 1.65;
 }
 
-.about-page ul {
-  padding-left: 1.25rem;
-}
-
-.about-page ul li {
+.content ul li {
   margin-bottom: 0.45rem;
 }
 
@@ -117,13 +116,13 @@ main .content h1[data-toc-skip] {
 }
 
 @media (max-width: 768px) {
-  .about-page .about-header {
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
+  .about-photo {
+    float: none;
+    display: block;
+    margin: 0 auto 1.25rem;
   }
 
-  .about-page .about-intro h2 {
-    margin-top: 1rem;
+  .section-break {
+    display: none;
   }
 }
