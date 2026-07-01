@@ -10,7 +10,7 @@
   --section-heading-border: rgba(110, 179, 247, 0.25);
 }
 
-/* Page title (h1) — About, Research, Home, etc. */
+/* Page title (h1) — About, Research, etc. */
 #core-wrapper h1.dynamic-title,
 article h1.dynamic-title {
   color: var(--section-heading-color) !important;
@@ -20,18 +20,17 @@ article h1.dynamic-title {
   border-bottom: 3px solid var(--section-heading-border);
 }
 
-/* Section headings (h2) — all pages */
-#core-wrapper .content h2,
-#core-wrapper .profile-home h1.profile-name,
-article .content h1.profile-name {
+/* Home profile name */
+#core-wrapper h1.profile-name,
+article h1.profile-name {
   color: var(--section-heading-color) !important;
-  font-size: 2rem;
   font-weight: 700;
-  margin-bottom: 0.25rem;
-  padding-bottom: 0;
   border-bottom: none;
+  padding-bottom: 0;
 }
 
+/* Section headings (h2) */
+#core-wrapper .content h2,
 #core-wrapper .profile-home h2,
 article .content h2 {
   color: var(--section-heading-color) !important;

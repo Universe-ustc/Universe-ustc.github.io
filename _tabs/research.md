@@ -3,7 +3,7 @@ icon: fas fa-flask
 order: 2
 ---
 
-## LLM Agents
+## LLM Compression
 
 <ul class="paper-list">
   <li>
