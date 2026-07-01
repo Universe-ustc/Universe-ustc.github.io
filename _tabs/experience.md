@@ -7,7 +7,7 @@ order: 3
 
 **Institute of International Exchange** · _Jan 2022 – Apr 2022_
 
-Served as a Sustainable Development Goals (SDG) project assistant. Collected and analyzed target data, and authored project reports. Received the **"The Best Intern"** award from the Chairman.
+Served as a Sustainable Development Goals (SDG) project assistant. Collected and analyzed target data, and authored project reports. Received a **"The Best Intern"** evaluation from the Chairman.
 
 ---
 

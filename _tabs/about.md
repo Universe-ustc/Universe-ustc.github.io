@@ -3,15 +3,20 @@ icon: fas fa-user
 order: 1
 ---
 
-<div class="about-page">
+<div class="about-page" markdown="1">
 
-<img src="/assets/img/avatar.png" alt="Yijuan Liang" class="about-photo" width="180" height="180">
+<div class="about-header">
+  <img src="/assets/img/avatar.png" alt="Yijuan Liang" class="about-photo" width="180" height="180">
+  <div class="about-intro">
 
 ## About Me
 
 I am a PhD student at the School of Computer Science and Technology, [University of Science and Technology of China (USTC)](https://www.ustc.edu.cn/). My research focuses on **LLM Agents**, **Agent Memory**, and **Tool Learning**.
 
 Before starting my PhD, I completed my Master's degree at USTC in Safety Science and Engineering, where I worked on multimodal learning and intelligent sensing systems. I am passionate about building capable and reliable AI agents that can interact with the real world through tools.
+
+  </div>
+</div>
 
 ## Education
 
@@ -51,11 +56,9 @@ Before starting my PhD, I completed my Master's degree at USTC in Safety Science
 
 ## Skills
 
-**Programming:** Python, MATLAB
-
-**Software & Tools:** PyCharm, Thonny, LabVIEW, SolidWorks, CAD, SPSS, Stata, FDS, PyroSim
-
-**Certificates:** National Computer Rank Examination Level 2 (C) · Level 3 (Network Technology) · CSWA (SolidWorks) · Advanced 2D CAD Drafter · English Minor Certificate · Mandarin Proficiency Certificate
+- **Programming:** Python, MATLAB
+- **Software & Tools:** PyCharm, Thonny, LabVIEW, SolidWorks, CAD, SPSS, Stata, FDS, PyroSim
+- **Certificates:** National Computer Rank Examination Level 2 (C) · Level 3 (Network Technology) · CSWA (SolidWorks) · Advanced 2D CAD Drafter · English Minor Certificate · Mandarin Proficiency Certificate
 
 ## Contact
 
@@ -64,39 +67,3 @@ Before starting my PhD, I completed my Master's degree at USTC in Safety Science
 - **Google Scholar:** _coming soon_
 
 </div>
-
-<style>
-  .about-page .about-photo {
-    border-radius: 50%;
-    display: block;
-    margin: 0 auto 1.5rem;
-    object-fit: cover;
-  }
-  .about-page .timeline {
-    border-left: 2px solid var(--border-color, #dee2e6);
-    margin-left: 0.5rem;
-    padding-left: 1.5rem;
-  }
-  .about-page .timeline-item {
-    margin-bottom: 1.75rem;
-    position: relative;
-  }
-  .about-page .timeline-item::before {
-    content: '';
-    width: 10px;
-    height: 10px;
-    background: var(--link-color, #007bff);
-    border-radius: 50%;
-    position: absolute;
-    left: -1.85rem;
-    top: 0.35rem;
-  }
-  .about-page .timeline-date {
-    font-weight: 600;
-    margin-bottom: 0.25rem;
-    color: var(--link-color, #007bff);
-  }
-  .about-page .timeline-content {
-    line-height: 1.6;
-  }
-</style>

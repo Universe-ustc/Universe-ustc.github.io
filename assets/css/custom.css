@@ -1,0 +1,129 @@
+/* Site-wide heading and page styles */
+
+:root {
+  --section-heading-color: #2a6496;
+  --section-heading-border: rgba(42, 100, 150, 0.18);
+}
+
+[data-mode="dark"] {
+  --section-heading-color: #6eb3f7;
+  --section-heading-border: rgba(110, 179, 247, 0.25);
+}
+
+/* Page title (h1) on tab pages */
+main .content h1[data-toc-skip] {
+  color: var(--section-heading-color);
+  font-weight: 700;
+  margin-bottom: 1.25rem;
+}
+
+/* Section headings (h2) */
+.profile-home h2,
+.about-page h2,
+.content h2,
+#core-wrapper h2 {
+  color: var(--section-heading-color);
+  font-size: 1.25rem;
+  font-weight: 650;
+  margin-top: 2rem;
+  margin-bottom: 0.85rem;
+  padding-bottom: 0.35rem;
+  border-bottom: 2px solid var(--section-heading-border);
+}
+
+.content h3,
+.about-page h3,
+#core-wrapper h3 {
+  color: var(--section-heading-color);
+  font-size: 1.05rem;
+  font-weight: 600;
+  margin-top: 1.5rem;
+  margin-bottom: 0.6rem;
+}
+
+/* About page */
+.about-page .about-header {
+  display: flex;
+  align-items: flex-start;
+  gap: 1.75rem;
+  margin-bottom: 0.5rem;
+}
+
+.about-page .about-photo {
+  border-radius: 50%;
+  flex-shrink: 0;
+  object-fit: cover;
+  margin: 0;
+}
+
+.about-page .about-intro {
+  flex: 1;
+  min-width: 0;
+}
+
+.about-page .about-intro h2 {
+  margin-top: 0;
+}
+
+.about-page .timeline {
+  border-left: 2px solid var(--border-color, #dee2e6);
+  margin: 0.5rem 0 0 0.5rem;
+  padding-left: 1.5rem;
+}
+
+.about-page .timeline-item {
+  margin-bottom: 1.75rem;
+  position: relative;
+}
+
+.about-page .timeline-item::before {
+  content: '';
+  width: 10px;
+  height: 10px;
+  background: var(--section-heading-color);
+  border-radius: 50%;
+  position: absolute;
+  left: -1.85rem;
+  top: 0.35rem;
+}
+
+.about-page .timeline-date {
+  font-weight: 600;
+  margin-bottom: 0.25rem;
+  color: var(--section-heading-color);
+}
+
+.about-page .timeline-content {
+  line-height: 1.65;
+}
+
+.about-page ul {
+  padding-left: 1.25rem;
+}
+
+.about-page ul li {
+  margin-bottom: 0.45rem;
+}
+
+/* Research papers */
+.paper-list {
+  list-style: none;
+  padding-left: 0;
+}
+
+.paper-list li {
+  margin-bottom: 1.5rem;
+  line-height: 1.65;
+}
+
+@media (max-width: 768px) {
+  .about-page .about-header {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .about-page .about-intro h2 {
+    margin-top: 1rem;
+  }
+}

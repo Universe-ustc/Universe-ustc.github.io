@@ -14,10 +14,6 @@ order: 2
   </li>
 </ul>
 
-## Agent Memory
-
-<p class="text-muted"><em>Papers coming soon.</em></p>
-
 ## Tool Learning
 
 <ul class="paper-list">
@@ -37,17 +33,7 @@ order: 2
     <strong>MAFF-Net: A Multimodal Adaptive Feature Fusion Network for Early Forest Fire Detection</strong><br>
     <u>Liang Y</u>, Rui X, Wang Y, et al.<br>
     <em>Journal of Safety Science and Resilience</em>, 2026<br>
-    <a href="https://www.sciencedirect.com/science/article/pii/S2666449626000447" target="_blank" rel="noopener">Paper</a>
+    <a href="https://www.sciencedirect.com/science/article/pii/S2666449626000447" target="_blank" rel="noopener">Paper</a> ·
+    <a href="https://github.com/Universe-ustc/MAFF-Net" target="_blank" rel="noopener">Code</a>
   </li>
 </ul>
-
-<style>
-  .paper-list {
-    list-style: none;
-    padding-left: 0;
-  }
-  .paper-list li {
-    margin-bottom: 1.5rem;
-    line-height: 1.6;
-  }
-</style>
