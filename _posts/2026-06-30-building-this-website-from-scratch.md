@@ -2,7 +2,7 @@
 title: "My First Blog: The Beginning of My Journey"
 date: 2026-06-30 22:22:00 +08:00
 categories:
-  - life
+  - meta
 tags:
   - first-post
   - github-pages
