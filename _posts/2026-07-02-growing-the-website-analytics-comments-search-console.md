@@ -1,6 +1,6 @@
 ---
 title: "Growing My Website: Analytics, Comments, and Google Search Console"
-date: 2026-07-02 21:30:00 +08:00
+date: 2026-07-02 08:00:00 +08:00
 categories:
   - meta
 tags:
@@ -23,7 +23,7 @@ So I spent the next few days adding three things:
 - **Giscus** for blog comments
 - **Google Search Console** so Google knows the site exists
 
-This post is a record of how I did it — and the pitfalls I ran into along the way.
+I also reorganized the left sidebar navigation while I was at it. This post is a record of how I did all of that — and the pitfalls I ran into along the way.
 
 ---
 
@@ -38,6 +38,51 @@ They solve three different problems:
 | **Google Search Console** | Helps Google discover and index my pages |
 
 They are independent. I can use all three at the same time without conflict.
+
+---
+
+## Part 0: Reorganizing the Sidebar Navigation
+
+Before adding analytics and comments, I restructured the site from a default Chirpy blog into something closer to a personal academic homepage.
+
+### What changed
+
+| Before (default Chirpy) | After (my site) |
+|-------------------------|-----------------|
+| Home = post list | Home = academic profile + Recent News |
+| Categories / Tags / Archives | Removed from sidebar |
+| About = placeholder | About = photo, education, skills |
+| — | Research / Experience / Projects |
+| — | Blog = post list |
+
+### How Chirpy navigation works
+
+Chirpy does **not** use a separate top menu. The left sidebar is controlled by files in the `_tabs/` folder:
+
+```
+_tabs/
+  about.md        → ABOUT
+  research.md     → RESEARCH
+  experience.md   → EXPERIENCE
+  projects.md     → PROJECTS
+  blog.md         → BLOG
+```
+
+Each file starts with front matter like this:
+
+```yaml
+---
+icon: fas fa-user
+order: 1
+---
+```
+
+- `order` controls position (smaller number = higher in the list)
+- `HOME` is always `index.html` at the site root
+
+To turn the home page into a profile page instead of a post list, I replaced `index.html` with custom content and created `_layouts/blog.html` so the **Blog** tab can still list posts.
+
+You do not need to edit the theme source code. Just add, remove, or reorder files in `_tabs/`.
 
 ---
 
@@ -65,10 +110,6 @@ pageviews:
 ![GoatCounter dashboard after registration](/assets/img/posts/goatcounter-dashboard.png)
 
 After deployment, each blog post should show a view count near the author line, and the GoatCounter dashboard will start recording visits.
-
-### A small note
-
-If you use an ad blocker, it may block `gc.zgo.at`. If your own visits do not show up, try disabling the blocker or opening the site in a private window.
 
 ---
 
@@ -117,31 +158,80 @@ Chirpy injects Giscus automatically once `comments.provider` is set to `giscus`.
 
 Having a live website does not mean Google already knows about it. Search Console is how you tell Google: this site exists, please come index it.
 
-### Verification
+### Verification with an HTML file
 
-Google offered several verification methods. I used the **HTML file** method:
+Google offered several verification methods. I used the **HTML file** method.
 
-1. Download `google46bb380d05484c3d.html`
-2. Place it in the **root** of the repository
-3. Push to GitHub
-4. Confirm the file is accessible at `https://universe-ustc.github.io/google46bb380d05484c3d.html`
-5. Click **Verify** in Search Console
+#### Where does this HTML file come from?
+
+**Google generates it for you.** It is not part of Chirpy, Jekyll, or GitHub Pages.
+
+During setup, Search Console asks you to download a file with a name like:
+
+```
+google46bb380d05484c3d.html
+```
+
+The file contains only one line:
+
+```
+google-site-verification: google46bb380d05484c3d.html
+```
+
+You place this file in the **root of your repository** — the same folder as `index.html` — and push it to GitHub:
+
+```
+Universe-ustc.github.io/
+  index.html
+  google46bb380d05484c3d.html   ← here
+  _config.yml
+  _posts/
+  ...
+```
+
+Jekyll copies it as-is into the built site. After deployment, it must be reachable at:
+
+```
+https://universe-ustc.github.io/google46bb380d05484c3d.html
+```
+
+Then go back to Search Console and click **Verify**.
 
 ![Google Search Console HTML file verification](/assets/img/posts/gsc-verification.png)
 
 **Do not delete this file after verification.** Google requires it to stay on your site.
 
-### Requesting indexing
+### Checking whether Google knows a page
 
-After verification, I used **URL Inspection** to request indexing for important pages.
+After verification, I wanted to know whether Google had found my subpages.
 
-At first, only the homepage passed inspection. Subpages like `/about/` and `/blog/` showed:
+In Search Console, use the **search bar at the very top** (not the left sidebar). Paste a full URL, for example:
+
+```
+https://universe-ustc.github.io/about/
+```
+
+Press Enter and wait for the inspection to finish.
+
+At first, many of my pages showed:
 
 > URL is not on Google
 
 ![Google Search Console URL not indexed yet](/assets/img/posts/gsc-url-not-indexed.png)
 
-This is normal for a brand-new site. Google discovers the homepage first; other pages take time. You can speed things up by clicking **Request Indexing** on each important URL.
+This is normal for a brand-new site. Google usually discovers the homepage first; other pages take more time.
+
+#### About "Request Indexing"
+
+You may read tutorials that say to click **Request Indexing**. In my experience, that button only appears in certain states — for example, after Google has successfully tested a live URL and the page is eligible but not yet indexed.
+
+If you do not see the button:
+
+1. Make sure you are inspecting a **full URL** in the top search bar
+2. Wait until the status check finishes
+3. Check again after a few days — indexing is slow for new sites
+
+Do not worry too much if the button is missing. Submitting `sitemap.xml` and waiting is also fine.
 
 ---
 
@@ -157,16 +247,16 @@ I pushed updates, but my browser still showed the old layout — old sidebar, ol
 
 ![Old site layout still showing due to PWA cache](/assets/img/posts/pwa-cache-old-layout.png)
 
-### 2. Local changes were not actually deployed
+### 2. A blog post did not appear after pushing
 
-Several times I thought I had fixed something, but the live site still showed the old content.
+I pushed a new post, GitHub Actions turned green, but the Blog page still showed only the first article.
 
-**Cause:** I edited files locally but forgot to `git commit` and `git push` — or the push failed due to network issues.
+**Cause:** The post date in the front matter was set to a **future time**. Jekyll does not publish future-dated posts by default.
 
-**Fix:** Always run `git status` and confirm the push succeeded. On unstable networks, this worked for me:
+**Fix:** Set the `date` field to the current time or a past time, then push again.
 
-```powershell
-git -c http.version=HTTP/1.1 push
+```yaml
+date: 2026-07-02 08:00:00 +08:00
 ```
 
 ### 3. About page Markdown did not render
@@ -177,15 +267,7 @@ My About page showed raw text like `## About Me` and `**bold**` instead of forma
 
 **Fix:** Keep Markdown **outside** HTML wrappers. Use HTML only for special layout pieces like the education timeline.
 
-### 4. Custom CSS did not apply to all pages
-
-Heading colors only changed on the Home page.
-
-**Cause:** I put `custom.css` in `_includes/head/custom.html`, but Chirpy actually loads custom head content from **`_includes/metadata-hook.html`**.
-
-**Fix:** Move the stylesheet link to `metadata-hook.html`.
-
-### 5. Giscus and GoatCounter are not the same as Google indexing
+### 4. Giscus and GoatCounter are not the same as Google indexing
 
 GoatCounter recording a visit does **not** mean Google has indexed the page. Search Console verification does **not** mean you will appear in search results immediately.
 
@@ -195,10 +277,11 @@ These are three separate systems. Each one needs its own setup and patience.
 
 ## What Is Working Now
 
+- Left sidebar navigation reorganized (Home / About / Research / Experience / Projects / Blog)
 - Page view counts on blog posts (GoatCounter)
 - Comment section at the bottom of posts (Giscus)
 - Google Search Console verification completed
-- Homepage URL inspection looks good; other pages are queued for indexing
+- Homepage URL inspection looks good; other pages are still being discovered
 
 There is still plenty to improve — more content, better SEO, a Google Scholar profile — but the site feels more like a real website now, not just a static page I visit alone.
 
@@ -206,8 +289,8 @@ There is still plenty to improve — more content, better SEO, a Google Scholar 
 
 ## Closing Thoughts
 
-Compared to the first post, this stage felt less dramatic. No green checkmark anxiety from GitHub Actions (well, mostly). Just a series of small integrations, each with its own documentation, configuration file, and ways to go wrong.
+Compared to the first post, this stage felt less dramatic. Less green-checkmark anxiety from GitHub Actions (well, mostly). Just a series of small integrations — navigation, analytics, comments, search — each with its own configuration file and ways to go wrong.
 
-If you are building a Chirpy site on GitHub Pages, I hope these notes save you an hour of confusion — especially the PWA cache issue, which fooled me more than once.
+If you are building a Chirpy site on GitHub Pages, I hope these notes save you an hour of confusion — especially the PWA cache issue and the future-dated post trap.
 
 More posts coming soon.
