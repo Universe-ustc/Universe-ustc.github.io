@@ -10,7 +10,6 @@ tags:
   - blogging
   - phd-journey
 toc: false
-comments: false
 ---
 
 ## Why I Started This Blog
