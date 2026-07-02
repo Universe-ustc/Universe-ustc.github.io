@@ -156,29 +156,16 @@ Chirpy injects Giscus automatically once `comments.provider` is set to `giscus`.
 
 ## Part 3: Google Search Console
 
-Having a live website does not mean Google already knows about it. Search Console is how you tell Google: this site exists, please come index it.
+Having a live website does not mean Google already knows about it. [Google Search Console](https://search.google.com/search-console) is how you tell Google this site exists and help it discover your pages.
 
-### Verification with an HTML file
+### Setup steps
 
-Google offered several verification methods. I used the **HTML file** method.
-
-#### Where does this HTML file come from?
-
-**Google generates it for you.** It is not part of Chirpy, Jekyll, or GitHub Pages.
-
-During setup, Search Console asks you to download a file with a name like:
-
-```
-google46bb380d05484c3d.html
-```
-
-The file contains only one line:
-
-```
-google-site-verification: google46bb380d05484c3d.html
-```
-
-You place this file in the **root of your repository** — the same folder as `index.html` — and push it to GitHub:
+1. Open [Google Search Console](https://search.google.com/search-console) and sign in with your Google account
+2. Click **Add property** → choose **URL prefix**
+3. Enter your site URL, e.g. `https://universe-ustc.github.io`
+4. Under verification methods, select **HTML file**
+5. Download the file Google generates (e.g. `google46bb380d05484c3d.html`) — it is **not** part of Chirpy or Jekyll; Google creates it for you
+6. Place the file in the **root of your repository** (same folder as `index.html`) and push to GitHub:
 
 ```
 Universe-ustc.github.io/
@@ -189,49 +176,19 @@ Universe-ustc.github.io/
   ...
 ```
 
-Jekyll copies it as-is into the built site. After deployment, it must be reachable at:
+7. After deployment, confirm the file is reachable at:
 
 ```
 https://universe-ustc.github.io/google46bb380d05484c3d.html
 ```
 
-Then go back to Search Console and click **Verify**.
+8. Go back to Search Console and click **Verify**
 
 ![Google Search Console HTML file verification](/assets/img/posts/gsc-verification.png)
 
-**Do not delete this file after verification.** Google requires it to stay on your site.
+9. In the left sidebar, open **Sitemaps**, enter `sitemap.xml`, and click **Submit**
 
-### Checking whether Google knows a page
-
-After verification, I wanted to know whether Google had found my subpages.
-
-In Search Console, use the **search bar at the very top** (not the left sidebar). Paste a full URL, for example:
-
-```
-https://universe-ustc.github.io/about/
-```
-
-Press Enter and wait for the inspection to finish.
-
-At first, many of my pages showed:
-
-> URL is not on Google
-
-![Google Search Console URL not indexed yet](/assets/img/posts/gsc-url-not-indexed.png)
-
-This is normal for a brand-new site. Google usually discovers the homepage first; other pages take more time.
-
-#### About "Request Indexing"
-
-You may read tutorials that say to click **Request Indexing**. In my experience, that button only appears in certain states — for example, after Google has successfully tested a live URL and the page is eligible but not yet indexed.
-
-If you do not see the button:
-
-1. Make sure you are inspecting a **full URL** in the top search bar
-2. Wait until the status check finishes
-3. Check again after a few days — indexing is slow for new sites
-
-Do not worry too much if the button is missing. Submitting `sitemap.xml` and waiting is also fine.
+**Do not delete the verification HTML file after setup.** Google requires it to stay on your site.
 
 ---
 
@@ -280,8 +237,7 @@ These are three separate systems. Each one needs its own setup and patience.
 - Left sidebar navigation reorganized (Home / About / Research / Experience / Projects / Blog)
 - Page view counts on blog posts (GoatCounter)
 - Comment section at the bottom of posts (Giscus)
-- Google Search Console verification completed
-- Homepage URL inspection looks good; other pages are still being discovered
+- Google Search Console verification completed; sitemap submitted
 
 There is still plenty to improve — more content, better SEO, a Google Scholar profile — but the site feels more like a real website now, not just a static page I visit alone.
 
