@@ -13,13 +13,13 @@ tags:
 toc: false
 ---
 
-Recently, my Windows C drive was running out of space. After installing Python environments, CUDA, AI models, VS Code, Docker, and various development tools, only about **40 GB** remained on a 300 GB system partition.
+Recently, my Windows C drive was running out of space. After installing Cursor, Codex, VS Code, and various development tools, only about **40 GB** remained on a 300 GB system partition.
 
 Instead of reinstalling Windows or manually moving everything around, I decided to resize my disk partitions.
 
 Truth be told, this was not a new idea. A few years ago, I already wanted to expand my C drive — but back then, the only Windows-native path looked far too painful: back up everything on the partitions in the way, delete them, extend C, then recreate the volumes and restore all the data. With D sitting between C and E, I had no appetite for that and eventually gave up.
 
-This time felt different. Partition tools like [DiskGenius](https://www.diskgenius.com/) have matured a lot over the years — moving partitions, resizing system drives, all without reinstalling Windows. I guess that's what people mean when they say technology keeps moving forward. I'm genuinely glad these third-party tools exist now.
+This time felt different. I finally tried [DiskGenius](https://www.diskgenius.com/) — a third-party partition manager that can **move** partitions and extend the system drive without wiping data. Years ago I had only looked at Windows' built-in tools and assumed that painful backup-and-delete workflow was the only option. I simply didn't know a tool like this could handle my layout. Glad I gave it a shot this time.
 
 The whole process turned out to be much easier than I expected — although there was one moment where I genuinely thought I had broken my computer.
 
