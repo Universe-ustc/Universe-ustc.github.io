@@ -2,7 +2,7 @@
 title: "Expanding My Windows C Drive Without Reinstalling: A Surprisingly Smooth (and Slightly Scary) Experience"
 date: 2026-07-03 13:00:00 +08:00
 categories:
-  - Meta
+  - life
 tags:
   - windows
   - diskgenius
