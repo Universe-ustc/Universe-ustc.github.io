@@ -27,28 +27,59 @@
       </li>
       <!-- the real tabs -->
       {% for tab in site.tabs %}
-        <li class="nav-item{% if tab.url == page.url %}{{ " active" }}{% endif %}">
-          <a href="{{ tab.url | relative_url }}" class="nav-link">
-            <i class="fa-fw {{ tab.icon }}"></i>
-            {% capture tab_name %}{{ tab.url | split: '/' }}{% endcapture %}
-
-            <span>{{ site.data.locales[include.lang].tabs.[tab_name] | default: tab.title | upcase }}</span>
-          </a>
-        </li>
-        <!-- .nav-item -->
+        {% capture tab_name %}{{ tab.url | split: '/' }}{% endcapture %}
 
         {% if tab.url == '/blog/' %}
-          {% assign category_names = site.categories | sort %}
-          {% for category in category_names %}
-            {% assign category_name = category[0] %}
-            {% assign category_path = '/categories/' | append: category_name | append: '/' %}
-            <li class="nav-item nav-item--sub{% if page.url == category_path %}{{ " active" }}{% endif %}">
-              <a href="{{ category_path | relative_url }}" class="nav-link">
-                <i class="fa-fw far fa-folder"></i>
-                <span>{{ category_name | replace: '-', ' ' | upcase }}</span>
+          {% assign show_blog_cats = false %}
+          {% if page.url == '/blog/' or page.url contains '/categories/' %}
+            {% assign show_blog_cats = true %}
+          {% endif %}
+
+          <li class="nav-item nav-item--blog{% if tab.url == page.url or page.url contains '/categories/' %}{{ " active" }}{% endif %}">
+            <div class="nav-link-with-toggle">
+              <a href="{{ tab.url | relative_url }}" class="nav-link">
+                <i class="fa-fw {{ tab.icon }}"></i>
+                <span>{{ site.data.locales[include.lang].tabs.[tab_name] | default: tab.title | upcase }}</span>
               </a>
-            </li>
-          {% endfor %}
+              <button
+                type="button"
+                class="blog-cat-toggle"
+                data-bs-toggle="collapse"
+                data-bs-target="#blog-category-nav"
+                aria-expanded="{% if show_blog_cats %}true{% else %}false{% endif %}"
+                aria-controls="blog-category-nav"
+                aria-label="Toggle blog categories"
+              >
+                <i class="fas fa-chevron-down"></i>
+              </button>
+            </div>
+          </li>
+
+          <li class="nav-item nav-item--sub-wrap w-100">
+            <ul
+              id="blog-category-nav"
+              class="nav flex-column blog-category-nav collapse{% if show_blog_cats %} show{% endif %}"
+            >
+              {% assign category_names = site.categories | sort %}
+              {% for category in category_names %}
+                {% assign category_name = category[0] %}
+                {% assign category_path = '/categories/' | append: category_name | append: '/' %}
+                <li class="nav-item nav-item--sub{% if page.url == category_path %}{{ " active" }}{% endif %}">
+                  <a href="{{ category_path | relative_url }}" class="nav-link">
+                    <i class="fa-fw far fa-folder"></i>
+                    <span>{{ category_name | replace: '-', ' ' | upcase }}</span>
+                  </a>
+                </li>
+              {% endfor %}
+            </ul>
+          </li>
+        {% else %}
+          <li class="nav-item{% if tab.url == page.url %}{{ " active" }}{% endif %}">
+            <a href="{{ tab.url | relative_url }}" class="nav-link">
+              <i class="fa-fw {{ tab.icon }}"></i>
+              <span>{{ site.data.locales[include.lang].tabs.[tab_name] | default: tab.title | upcase }}</span>
+            </a>
+          </li>
         {% endif %}
       {% endfor %}
     </ul>

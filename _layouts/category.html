@@ -1,0 +1,16 @@
+---
+layout: default
+# Category archive — same card list layout as Blog
+---
+
+{% include lang.html %}
+
+<div class="category-page-header px-xl-1 mb-3">
+  <h1 class="dynamic-title mb-0">
+    <i class="far fa-folder-open fa-fw"></i>
+    {{ page.title | replace: '-', ' ' }}
+    <span class="lead text-muted ps-2">{{ page.posts | size }}</span>
+  </h1>
+</div>
+
+{% include blog-post-cards.html posts=page.posts %}
