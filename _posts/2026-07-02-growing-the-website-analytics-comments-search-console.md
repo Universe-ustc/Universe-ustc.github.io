@@ -2,7 +2,7 @@
 title: "Growing My Website: Analytics, Comments, and Google Search Console"
 date: 2026-07-02 08:00:00 +08:00
 categories:
-  - meta
+  - website
 tags:
   - github-pages
   - chirpy

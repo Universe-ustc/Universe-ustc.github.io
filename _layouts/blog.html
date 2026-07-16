@@ -40,6 +40,14 @@ layout: default
           </div>
         </div>
       </a>
+
+      {% if post.categories.size > 0 %}
+      <div class="blog-card-categories">
+        {% for category_name in post.categories %}
+          <a href="{{ '/categories/' | append: category_name | append: '/' | relative_url }}">{{ category_name }}</a>{% unless forloop.last %}<span class="blog-card-categories__sep" aria-hidden="true">·</span>{% endunless %}
+        {% endfor %}
+      </div>
+      {% endif %}
     </article>
     {% endif %}
   {% endfor %}

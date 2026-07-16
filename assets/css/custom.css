@@ -5,6 +5,23 @@
   --section-heading-border: rgba(42, 100, 150, 0.18);
 }
 
+/* Slightly larger base type across the site */
+html {
+  font-size: 112.5%; /* 18px if browser default is 16px */
+}
+
+#sidebar .nav-link {
+  font-size: 1rem;
+}
+
+#sidebar .site-title {
+  font-size: 1.2rem;
+}
+
+#sidebar .site-subtitle {
+  font-size: 0.95rem;
+}
+
 [data-mode="dark"] {
   --section-heading-color: #6eb3f7;
   --section-heading-border: rgba(110, 179, 247, 0.25);
@@ -124,4 +141,41 @@ article .content h3 {
   .section-break {
     display: none;
   }
+}
+
+/* Blog category sub-items under BLOG in the left sidebar */
+#sidebar .nav-item--sub > .nav-link {
+  padding-left: 2.1rem;
+  font-size: 0.9em;
+  opacity: 0.85;
+}
+
+#sidebar .nav-item--sub > .nav-link i {
+  font-size: 0.85em;
+}
+
+#sidebar .nav-item--sub.active > .nav-link {
+  opacity: 1;
+  color: var(--section-heading-color);
+}
+
+/* Category links on blog cards (outside the main preview link) */
+.blog-card-categories {
+  padding: 0 1.25rem 0.85rem;
+  font-size: 0.85rem;
+  color: var(--text-muted-color, #6c757d);
+}
+
+.blog-card-categories a {
+  color: var(--section-heading-color);
+  text-decoration: none;
+}
+
+.blog-card-categories a:hover {
+  text-decoration: underline;
+}
+
+.blog-card-categories__sep {
+  margin: 0 0.35rem;
+  opacity: 0.55;
 }
