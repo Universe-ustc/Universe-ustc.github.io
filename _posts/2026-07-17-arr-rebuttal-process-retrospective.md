@@ -6,13 +6,14 @@ categories:
 tags:
   - arr
   - rebuttal
+  - emnlp
   - tool-learning
   - academic-writing
   - workflow
 toc: false
 ---
 
-In 2026 I submitted the same tool-learning project to **two ACL ARR cycles** — March, then May. Reviews arrive about two months after submission, so the rebuttal work for the May cycle landed in July. The first cycle ended poorly enough that we skipped rebuttal and rebuilt the paper. The second cycle went much better — and a careful rebuttal moved one reviewer's score up.
+In 2026 I submitted the same tool-learning project to **two ACL ARR cycles** — March, then May. Reviews arrive about two months after submission, so the rebuttal work for the May cycle landed in July. The first cycle ended poorly enough that we skipped rebuttal and rebuilt the paper. The second cycle went much better — a careful rebuttal moved one reviewer's score up — but the final decision still hurt: **rejected by EMNLP 2026**.
 
 This post is a **process retrospective**: what the reviews looked like at a high level, how we decided when *not* to rebuttal, and how I actually wrote the second-round responses.
 ---
@@ -36,7 +37,21 @@ At that point, a short rebuttal window would not have fixed the core problems. S
 After the overhaul, the new reviews were **3, 2.5, and 2.5**. The tone was different. Reviewers still pushed on important points — **model scale**, **data-processing / conversion details**, **deeper analysis of failure modes** (especially multi-turn), and **positioning vs related work** — but the asks were concrete and mostly answerable inside the rebuttal period.
 We wrote detailed per-reviewer responses, added small follow-up experiments (including scaling within and beyond the original backbone family), and clarified several protocol details with tables. One of the **2.5** reviewers later wrote that the clarifications addressed key concerns and **raised the score to 3**. No other score changed after that.
 
-The rebuttal discussion period is now over. We are waiting for the **AC decision around late July / early August**.
+The rebuttal discussion period then ended, and we committed the paper to **EMNLP 2026**. The final result arrived on **August 21** — more on that below.
+
+---
+
+## The Final Result: Rejected by EMNLP 2026
+
+The decision email landed on August 21: submission 6196 (*UniToolCall: Unifying Tool-Use Representation, Data, and Evaluation for LLM Agents*) was **not accepted to EMNLP 2026**. The decision on OpenReview reads **Reject**, and the PCs made clear it is final.
+
+The decision comment, written by the SAC and holistically considered by the PCs, read:
+
+> The reviewers and the meta-reviewer find "UniToolCall" to be a valuable and practical contribution that effectively addresses the fragmentation problem in LLM tool-use research by unifying representation, data, and evaluation. While they praise the comprehensive dataset curation and the unified evaluation protocol, they also note that the core technical contributions are not highly novel and that experiments are somewhat limited to smaller models. The authors' detailed response, which includes new scaling experiments and clarifications, successfully addresses the reviewers' primary concerns, solidifying the case for acceptance to the Findings track.
+
+That last sentence stings a little: the comment itself says our response *"successfully addresses the reviewers' primary concerns"* — yet the decision above it is **Reject**, and the email confirms it. With **17,669 submissions** and acceptance rates of **15.4% for the main conference** and **14.3% for Findings**, a well-executed rebuttal clearly raises your odds but does not buy you a slot. The full reviews and discussion are public on [OpenReview](https://openreview.net/forum?id=9BQqDUI9hu).
+
+So the paper is out of this cycle. It is not out of the game — the reviews, the score raise, and even that decision comment are all material for the next submission.
 
 ---
 
@@ -97,8 +112,9 @@ That opening matters. Reviewers are more willing to re-read when they feel heard
 - **Skipping rebuttal can be the right call** when the paper needs a rebuild, not a paragraph
 - **Treat harsh high-confidence reviews as a gift checklist**, then actually execute it before the next cycle
 - **Separate strategy from prose**: plan with a strong model, draft in an editor that can hold long structured replies
-- **Ship in stages**: early substantive replies, then new experiments, then a general response that helps the AC and invites reviewers to reply- **Lead with thanks for concrete positives**, then answer with evidence
+- **Ship in stages**: early substantive replies, then new experiments, then a general response that helps the AC and invites reviewers to reply
+- **Lead with thanks for concrete positives**, then answer with evidence
 
-I do not know yet whether the second-cycle paper will be accepted. What I do know is that the rebuttal process itself felt much more under control this time — less panic, more project management.
+The second-cycle paper ended up rejected. But even setting the outcome aside, the rebuttal process itself felt much more under control this time — less panic, more project management.
 
 If you are staring at a mixed ARR stack and wondering whether to fight this cycle or rebuild for the next one, I hope this retrospective makes the trade-off a little clearer.
