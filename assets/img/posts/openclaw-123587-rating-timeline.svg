@@ -1,0 +1,14 @@
+﻿<svg xmlns="http://www.w3.org/2000/svg" width="960" height="360" viewBox="0 0 960 360">
+  <rect width="960" height="360" fill="#f8fafc"/>
+  <text x="40" y="48" font-family="ui-sans-serif,system-ui,sans-serif" font-size="24" font-weight="700" fill="#1f2937">ClawSweeper readiness on #123587</text>
+  <text x="40" y="76" font-family="ui-sans-serif,system-ui,sans-serif" font-size="14" fill="#6b7280">Same head, score oscillated while waiting on a maintainer contract decision</text>
+  <g font-family="ui-sans-serif,system-ui,sans-serif">
+    <rect x="40" y="120" width="880" height="48" rx="10" fill="#fff" stroke="#e2e8f0"/>
+    <text x="56" y="150" font-size="15" fill="#334155">Aug 14 · platinum hermit 4/6 · ready for maintainer look · findings: none</text>
+    <rect x="40" y="184" width="880" height="48" rx="10" fill="#fff" stroke="#e2e8f0"/>
+    <text x="56" y="214" font-size="15" fill="#334155">Aug 26 · gold shrimp 3/6 · same blocker: malformed-quote compatibility contract</text>
+    <rect x="40" y="248" width="880" height="48" rx="10" fill="#fff" stroke="#e2e8f0"/>
+    <text x="56" y="278" font-size="15" fill="#334155">Sep 2 · gold shrimp 3/6 · blocked: contract + merge conflict with main refactor</text>
+  </g>
+  <text x="40" y="330" font-family="ui-sans-serif,system-ui,sans-serif" font-size="13" fill="#64748b">Recommendation stayed: adopt the quote-safe shared-extractor contract</text>
+</svg>

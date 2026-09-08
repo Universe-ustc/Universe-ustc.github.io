@@ -1,0 +1,76 @@
+﻿<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="520" viewBox="0 0 1200 520">
+  <defs>
+    <style>
+      .title { font: 700 28px ui-sans-serif, system-ui, sans-serif; fill: #1f2937; }
+      .sub { font: 500 14px ui-sans-serif, system-ui, sans-serif; fill: #6b7280; }
+      .card-t { font: 700 15px ui-sans-serif, system-ui, sans-serif; fill: #111827; }
+      .card-b { font: 400 13px ui-sans-serif, system-ui, sans-serif; fill: #4b5563; }
+      .badge { font: 700 12px ui-sans-serif, system-ui, sans-serif; fill: #fff; }
+    </style>
+  </defs>
+  <rect width="1200" height="520" fill="#f8fafc"/>
+  <text x="48" y="48" class="title">Five attempts at an OpenClaw first merge</text>
+  <text x="48" y="74" class="sub">Jul 28 – Sep 8, 2026 · same fork, different issue shapes</text>
+  <line x1="80" y1="260" x2="1120" y2="260" stroke="#cbd5e1" stroke-width="4"/>
+  <!-- cards -->
+  <g transform="translate(40,120)">
+    <rect width="200" height="280" rx="14" fill="#fff" stroke="#e2e8f0"/>
+    <circle cx="28" cy="28" r="16" fill="#0f766e"/><text x="28" y="33" text-anchor="middle" class="badge">1</text>
+    <text x="54" y="34" class="card-t">Tool display</text>
+    <text x="16" y="70" class="card-b">#113401 / PR #114484</text>
+    <text x="16" y="96" class="card-b">Nested rg/grep</text>
+    <text x="16" y="116" class="card-b">search summaries</text>
+    <text x="16" y="160" class="card-b">Closed as duplicate</text>
+    <text x="16" y="180" class="card-b">after #114933 landed</text>
+    <text x="16" y="220" class="card-b">Outcome: fixed on</text>
+    <text x="16" y="240" class="card-b">main, not via my PR</text>
+  </g>
+  <g transform="translate(260,120)">
+    <rect width="200" height="280" rx="14" fill="#fff" stroke="#e2e8f0"/>
+    <circle cx="28" cy="28" r="16" fill="#0369a1"/><text x="28" y="33" text-anchor="middle" class="badge">2</text>
+    <text x="54" y="34" class="card-t">Settings search</text>
+    <text x="16" y="70" class="card-b">#114981 / PR #115068</text>
+    <text x="16" y="96" class="card-b">Appearance prefs</text>
+    <text x="16" y="116" class="card-b">missing from index</text>
+    <text x="16" y="160" class="card-b">Closed by me after</text>
+    <text x="16" y="180" class="card-b">#115110 superseded</text>
+    <text x="16" y="220" class="card-b">Outcome: race lost</text>
+    <text x="16" y="240" class="card-b">to a broader PR</text>
+  </g>
+  <g transform="translate(480,120)">
+    <rect width="200" height="280" rx="14" fill="#fff" stroke="#e2e8f0"/>
+    <circle cx="28" cy="28" r="16" fill="#7c3aed"/><text x="28" y="33" text-anchor="middle" class="badge">3</text>
+    <text x="54" y="34" class="card-t">MCP pin UI</text>
+    <text x="16" y="70" class="card-b">#114979 / PR #115113</text>
+    <text x="16" y="96" class="card-b">canPinMcpApps</text>
+    <text x="16" y="116" class="card-b">dependency miss</text>
+    <text x="16" y="160" class="card-b">Closed by me after</text>
+    <text x="16" y="180" class="card-b">same #115110 wave</text>
+    <text x="16" y="220" class="card-b">Outcome: narrow fix,</text>
+    <text x="16" y="240" class="card-b">still scooped</text>
+  </g>
+  <g transform="translate(700,120)">
+    <rect width="200" height="280" rx="14" fill="#fff" stroke="#e2e8f0"/>
+    <circle cx="28" cy="28" r="16" fill="#b45309"/><text x="28" y="33" text-anchor="middle" class="badge">4</text>
+    <text x="54" y="34" class="card-t">Exec inherit</text>
+    <text x="16" y="70" class="card-b">#112376 / PR #116244</text>
+    <text x="16" y="96" class="card-b">Dashboard sessions</text>
+    <text x="16" y="116" class="card-b">tools.exec policy</text>
+    <text x="16" y="160" class="card-b">Abandoned after</text>
+    <text x="16" y="180" class="card-b">expanding review</text>
+    <text x="16" y="220" class="card-b">Outcome: too wide</text>
+    <text x="16" y="240" class="card-b">for a first PR</text>
+  </g>
+  <g transform="translate(920,120)">
+    <rect width="200" height="280" rx="14" fill="#fff" stroke="#e2e8f0"/>
+    <circle cx="28" cy="28" r="16" fill="#be123c"/><text x="28" y="33" text-anchor="middle" class="badge">5</text>
+    <text x="54" y="34" class="card-t">Balanced JSON</text>
+    <text x="16" y="70" class="card-b">#122353 / PR #123587</text>
+    <text x="16" y="96" class="card-b">Quoted-prose braces</text>
+    <text x="16" y="116" class="card-b">quote-safe contract</text>
+    <text x="16" y="160" class="card-b">Closed after CLI-only</text>
+    <text x="16" y="180" class="card-b">#122373 merged</text>
+    <text x="16" y="220" class="card-b">Outcome: product</text>
+    <text x="16" y="240" class="card-b">decision, not merge</text>
+  </g>
+</svg>
