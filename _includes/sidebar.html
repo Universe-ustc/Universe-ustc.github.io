@@ -133,9 +133,10 @@
         </ul>
       </div>
 
-      {% if site.data.contact.size > 0 %}
-        <span class="icon-border"></span>
-      {% endif %}
+      {%- comment -%}
+        Skip Chirpy's .icon-border (the · between theme toggle and contacts).
+        With many contact icons it wraps and breaks column alignment.
+      {%- endcomment -%}
     {% endunless %}
 
     {% for entry in site.data.contact %}
