@@ -57,4 +57,7 @@ Before entering my PhD program, I spent three years in USTC's graduate program i
 
 - **Email:** [yijuanliang0625@gmail.com](mailto:yijuanliang0625@gmail.com)
 - **GitHub:** [Universe-ustc](https://github.com/Universe-ustc)
-- **Google Scholar:** _coming soon_
+- **ORCID:** [0009-0008-7780-3449](https://orcid.org/0009-0008-7780-3449)
+- **Google Scholar:** [Profile](https://scholar.google.com/citations?user=MFgrZKwAAAAJ&hl=en)
+- **Semantic Scholar:** [Yijuan Liang](https://www.semanticscholar.org/author/2295277669)
+- **OpenAlex:** [A5133614168](https://openalex.org/A5133614168)

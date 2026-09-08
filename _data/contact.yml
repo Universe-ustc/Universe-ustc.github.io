@@ -7,6 +7,22 @@
   icon: "fas fa-envelope"
   noblank: true
 
+- type: orcid
+  icon: "fab fa-orcid"
+  url: "https://orcid.org/0009-0008-7780-3449"
+
+- type: google-scholar
+  icon: "fas fa-graduation-cap"
+  url: "https://scholar.google.com/citations?user=MFgrZKwAAAAJ&hl=en"
+
+- type: semantic-scholar
+  icon: "fas fa-book"
+  url: "https://www.semanticscholar.org/author/2295277669"
+
+- type: openalex
+  icon: "fas fa-project-diagram"
+  url: "https://openalex.org/A5133614168"
+
 - type: rss
   icon: "fas fa-rss"
   noblank: true
