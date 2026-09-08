@@ -237,11 +237,38 @@ article .content h3 {
   opacity: 0.55;
 }
 
-/* Sidebar contact icons: keep a clean wrap grid without the theme-toggle · separator */
-#sidebar .sidebar-bottom .icon-border {
-  display: none;
+/*
+  Chirpy sidebar-bottom uses flex-wrap + margin-right on anchors.
+  Theme toggle sits in a .btn-group with a different box model, and
+  .icon-border is a 3px · separator — together they break column alignment
+  when icons wrap to two rows. Force a 4-column equal grid instead.
+*/
+#sidebar .sidebar-bottom {
+  display: grid !important;
+  grid-template-columns: repeat(4, 1.75rem);
+  column-gap: 0.8rem;
+  row-gap: 0.5rem;
+  justify-content: start;
+  align-items: center;
 }
 
-#sidebar .sidebar-bottom {
-  gap: 0.35rem 0.5rem;
+#sidebar .sidebar-bottom .icon-border {
+  display: none !important;
+}
+
+#sidebar .sidebar-bottom > a,
+#sidebar .sidebar-bottom > .btn-group {
+  width: 1.75rem !important;
+  height: 1.75rem !important;
+  margin: 0 !important;
+}
+
+#sidebar .sidebar-bottom > .btn-group > .btn#mode-toggle {
+  width: 1.75rem !important;
+  height: 1.75rem !important;
+  padding: 0 !important;
+  margin: 0 !important;
+  display: flex !important;
+  align-items: center;
+  justify-content: center;
 }
