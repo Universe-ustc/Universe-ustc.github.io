@@ -1,0 +1,36 @@
+﻿<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="420" viewBox="0 0 1100 420">
+  <rect width="1100" height="420" fill="#f8fafc"/>
+  <text x="40" y="42" font-family="ui-sans-serif,system-ui,sans-serif" font-size="22" font-weight="700" fill="#1f2937">Academic identity stack (CS researcher view)</text>
+  <text x="40" y="68" font-family="ui-sans-serif,system-ui,sans-serif" font-size="13" fill="#6b7280">One person, several databases — ORCID as the persistent ID others should point to</text>
+  <g font-family="ui-sans-serif,system-ui,sans-serif">
+    <rect x="40" y="100" width="200" height="140" rx="12" fill="#fff" stroke="#0f766e" stroke-width="2"/>
+    <text x="56" y="132" font-size="16" font-weight="700" fill="#0f766e">ORCID</text>
+    <text x="56" y="158" font-size="13" fill="#334155">Persistent ID</text>
+    <text x="56" y="180" font-size="13" fill="#334155">Employment / Edu</text>
+    <text x="56" y="202" font-size="13" fill="#334155">Works + other IDs</text>
+    <rect x="260" y="100" width="200" height="140" rx="12" fill="#fff" stroke="#e2e8f0"/>
+    <text x="276" y="132" font-size="16" font-weight="700" fill="#0369a1">Google Scholar</text>
+    <text x="276" y="158" font-size="13" fill="#334155">Citation counts</text>
+    <text x="276" y="180" font-size="13" fill="#334155">Manual paper claim</text>
+    <text x="276" y="202" font-size="13" fill="#334155">Self-curated list</text>
+    <rect x="480" y="100" width="200" height="140" rx="12" fill="#fff" stroke="#e2e8f0"/>
+    <text x="496" y="132" font-size="16" font-weight="700" fill="#7c3aed">Semantic Scholar</text>
+    <text x="496" y="158" font-size="13" fill="#334155">AI clustering</text>
+    <text x="496" y="180" font-size="13" fill="#334155">Claim + cleanup</text>
+    <text x="496" y="202" font-size="13" fill="#334155">~24h for edits</text>
+    <rect x="700" y="100" width="180" height="140" rx="12" fill="#fff" stroke="#e2e8f0"/>
+    <text x="716" y="132" font-size="16" font-weight="700" fill="#b45309">OpenAlex</text>
+    <text x="716" y="158" font-size="13" fill="#334155">Open biblio graph</text>
+    <text x="716" y="180" font-size="13" fill="#334155">Claim with proof</text>
+    <text x="716" y="202" font-size="13" fill="#334155">ORCID helps</text>
+    <rect x="900" y="100" width="160" height="140" rx="12" fill="#fff" stroke="#e2e8f0"/>
+    <text x="916" y="132" font-size="16" font-weight="700" fill="#be123c">DBLP</text>
+    <text x="916" y="158" font-size="13" fill="#334155">CS bibliography</text>
+    <text x="916" y="180" font-size="13" fill="#334155">Formal venues +</text>
+    <text x="916" y="202" font-size="13" fill="#334155">cs.* CoRR mirror</text>
+    <rect x="40" y="270" width="1020" height="110" rx="12" fill="#fff" stroke="#e2e8f0"/>
+    <text x="56" y="304" font-size="15" font-weight="700" fill="#1f2937">Sources that feed the stack</text>
+    <text x="56" y="332" font-size="13" fill="#475569">arXiv / OpenReview / publisher pages are usually the upstream records. They are not personal homepages, but Scholar / S2 / OpenAlex / DBLP ingest from them.</text>
+    <text x="56" y="358" font-size="13" fill="#475569">DBLP may also mirror arXiv cs.* as informal CoRR entries — policy allows it; appearance can still lag months.</text>
+  </g>
+</svg>
