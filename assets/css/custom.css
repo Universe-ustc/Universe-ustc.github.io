@@ -724,6 +724,47 @@ article .content h3 {
   border-image: linear-gradient(90deg, var(--section-heading-color), var(--accent-teal), transparent 85%) 1;
 }
 
+#access-lastmod ul {
+  list-style: none;
+  counter-reset: recent-posts;
+  padding-left: 0 !important;
+  margin-left: 0 !important;
+}
+
+#access-lastmod li {
+  counter-increment: recent-posts;
+  display: flex;
+  align-items: baseline;
+  gap: 0.55rem;
+  margin: 0;
+  padding: 0.55rem 0;
+  border-bottom: 1px dashed rgba(109, 40, 217, 0.16);
+  white-space: normal;
+  overflow: visible;
+  text-overflow: unset;
+  line-height: 1.4;
+}
+
+#access-lastmod li:last-child {
+  border-bottom: none;
+}
+
+#access-lastmod li::before {
+  content: counter(recent-posts, decimal-leading-zero);
+  flex: 0 0 auto;
+  font-family: var(--font-display);
+  font-size: 0.78rem;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  color: var(--accent-teal);
+  opacity: 0.9;
+}
+
+#access-lastmod li a {
+  min-width: 0;
+  white-space: normal;
+}
+
 /* Breadcrumbs + tag/category/blog list titles: purple instead of Chirpy blue */
 :root,
 [data-bs-theme='light'],
