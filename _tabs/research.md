@@ -37,3 +37,13 @@ order: 2
     <a href="https://github.com/Universe-ustc/MAFF-Net" target="_blank" rel="noopener">Code</a>
   </li>
 </ul>
+
+## Patents
+
+<ul class="paper-list">
+  <li>
+    <strong>一种基于行为模拟的大语言模型推理方法和系统</strong><br>
+    Invention patent (China) · Granted March 2026<br>
+    <span class="text-muted">Patent number / public link to be added.</span>
+  </li>
+</ul>
