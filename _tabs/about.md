@@ -22,7 +22,7 @@ Before entering my PhD program, I spent three years in USTC's graduate program i
   <div class="timeline-content">
     <strong>Ph.D. in Computer Science and Technology</strong><br>
     University of Science and Technology of China<br>
-    <em>GPA: 3.73/4.3</em> · First-class Academic Scholarship
+    <em>GPA: 3.75/4.3</em> · First-class Academic Scholarship
   </div>
 </div>
 

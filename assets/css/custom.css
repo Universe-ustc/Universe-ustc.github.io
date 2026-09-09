@@ -1,8 +1,24 @@
-/* Site-wide heading and page styles */
+/* Site-wide heading and page styles — soft violet + teal accents */
 
 :root {
-  --section-heading-color: #2a6496;
-  --section-heading-border: rgba(42, 100, 150, 0.18);
+  --section-heading-color: #6d28d9;
+  --section-heading-border: rgba(109, 40, 217, 0.18);
+  --accent-teal: #0f766e;
+  --accent-teal-soft: rgba(15, 118, 110, 0.14);
+  --home-aurora-violet: rgba(167, 139, 250, 0.38);
+  --home-aurora-teal: rgba(45, 212, 191, 0.28);
+  --home-aurora-lilac: rgba(221, 214, 254, 0.45);
+}
+
+[data-bs-theme='dark'],
+[data-mode='dark'] {
+  --section-heading-color: #c4b5fd;
+  --section-heading-border: rgba(196, 181, 253, 0.28);
+  --accent-teal: #5eead4;
+  --accent-teal-soft: rgba(94, 234, 212, 0.16);
+  --home-aurora-violet: rgba(139, 92, 246, 0.22);
+  --home-aurora-teal: rgba(45, 212, 191, 0.16);
+  --home-aurora-lilac: rgba(167, 139, 250, 0.14);
 }
 
 /* Larger base type across the site */
@@ -30,11 +46,6 @@ html {
   font-size: 1.05rem;
 }
 
-[data-mode="dark"] {
-  --section-heading-color: #6eb3f7;
-  --section-heading-border: rgba(110, 179, 247, 0.25);
-}
-
 /* Page title (h1) — About, Research, etc. */
 #core-wrapper h1.dynamic-title,
 article h1.dynamic-title {
@@ -48,10 +59,18 @@ article h1.dynamic-title {
 /* Home profile name */
 #core-wrapper h1.profile-name,
 article h1.profile-name {
-  color: var(--section-heading-color) !important;
   font-weight: 700;
   border-bottom: none;
   padding-bottom: 0;
+}
+
+#core-wrapper .profile-home h1.profile-name,
+article .profile-home h1.profile-name {
+  background: linear-gradient(105deg, var(--section-heading-color) 0%, var(--accent-teal) 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent !important;
+  -webkit-text-fill-color: transparent;
 }
 
 /* Section headings (h2) */
@@ -107,11 +126,141 @@ article .content h3 {
   content: '';
   width: 10px;
   height: 10px;
-  background: var(--section-heading-color);
+  background: linear-gradient(135deg, var(--section-heading-color), var(--accent-teal));
   border-radius: 50%;
   position: absolute;
   left: -1.85rem;
   top: 0.35rem;
+}
+
+/* Homepage only: light aurora wash + sparse shooting stars */
+.profile-home {
+  position: relative;
+  isolation: isolate;
+}
+
+.home-aurora {
+  position: absolute;
+  inset: -1.5rem -1.25rem auto;
+  height: min(26rem, 65vh);
+  z-index: -1;
+  pointer-events: none;
+  border-radius: 1.5rem;
+  background:
+    radial-gradient(ellipse 55% 65% at 18% 28%, var(--home-aurora-violet), transparent 62%),
+    radial-gradient(ellipse 50% 60% at 82% 22%, var(--home-aurora-teal), transparent 60%),
+    radial-gradient(ellipse 42% 48% at 52% 68%, var(--home-aurora-lilac), transparent 68%);
+  filter: blur(36px);
+  opacity: 0.95;
+  animation: home-aurora-drift 20s ease-in-out infinite alternate;
+}
+
+.home-meteors {
+  position: absolute;
+  inset: -1rem -0.5rem auto;
+  height: min(32rem, 78vh);
+  z-index: -1;
+  overflow: hidden;
+  pointer-events: none;
+  border-radius: 1.25rem;
+}
+
+.meteor {
+  position: absolute;
+  top: -8%;
+  width: 2px;
+  height: 78px;
+  border-radius: 999px;
+  background: linear-gradient(
+    to bottom,
+    rgba(255, 255, 255, 0) 0%,
+    rgba(167, 139, 250, 0.15) 35%,
+    rgba(109, 40, 217, 0.75) 72%,
+    rgba(45, 212, 191, 0.95) 100%
+  );
+  opacity: 0;
+  transform: rotate(118deg);
+  filter: drop-shadow(0 0 4px rgba(109, 40, 217, 0.35));
+  animation: meteor-fall linear infinite;
+}
+
+.meteor--1 {
+  left: 12%;
+  animation-duration: 7.5s;
+  animation-delay: 0.8s;
+}
+
+.meteor--2 {
+  left: 38%;
+  height: 64px;
+  animation-duration: 9.2s;
+  animation-delay: 3.4s;
+}
+
+.meteor--3 {
+  left: 58%;
+  height: 90px;
+  background: linear-gradient(
+    to bottom,
+    rgba(255, 255, 255, 0) 0%,
+    rgba(45, 212, 191, 0.12) 40%,
+    rgba(15, 118, 110, 0.7) 75%,
+    rgba(167, 139, 250, 0.9) 100%
+  );
+  animation-duration: 8.4s;
+  animation-delay: 6.1s;
+}
+
+.meteor--4 {
+  left: 78%;
+  height: 56px;
+  animation-duration: 10.5s;
+  animation-delay: 1.6s;
+}
+
+.profile-home .contact-list a:hover {
+  color: var(--accent-teal);
+}
+
+@keyframes home-aurora-drift {
+  from {
+    transform: translate3d(-1.5%, -1%, 0) scale(1);
+  }
+  to {
+    transform: translate3d(2.5%, 2%, 0) scale(1.06);
+  }
+}
+
+@keyframes meteor-fall {
+  0% {
+    opacity: 0;
+    transform: translate3d(0, 0, 0) rotate(118deg);
+  }
+  6% {
+    opacity: 0.9;
+  }
+  18% {
+    opacity: 0.75;
+  }
+  28% {
+    opacity: 0;
+    transform: translate3d(9rem, 22rem, 0) rotate(118deg);
+  }
+  100% {
+    opacity: 0;
+    transform: translate3d(9rem, 22rem, 0) rotate(118deg);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .home-aurora,
+  .meteor {
+    animation: none;
+  }
+
+  .meteor {
+    display: none;
+  }
 }
 
 .timeline-date {
