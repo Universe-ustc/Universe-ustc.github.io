@@ -682,8 +682,8 @@ article .content h3 {
 #sidebar .sidebar-bottom {
   display: grid !important;
   grid-template-columns: repeat(4, 1.75rem);
-  column-gap: 0.55rem;
-  row-gap: 0.5rem;
+  column-gap: 0.88rem;
+  row-gap: 0.75rem;
   justify-content: center;
   justify-items: center;
   align-items: center;
@@ -800,12 +800,27 @@ article .content h3 {
   font-weight: 650;
 }
 
-.experience-head time {
+.experience-head time,
+.experience-head span {
   flex: 0 0 auto;
   font-size: 0.92rem;
   font-style: italic;
   color: var(--text-muted-color, #6c757d);
   white-space: nowrap;
+}
+
+.experience-item > .text-muted {
+  margin: 0.4rem 0 0;
+}
+
+.experience-item ul {
+  margin: 0.45rem 0 0;
+  padding-left: 1.2rem;
+}
+
+.experience-item li {
+  margin-bottom: 0.35rem;
+  line-height: 1.6;
 }
 
 @media (max-width: 768px) {
