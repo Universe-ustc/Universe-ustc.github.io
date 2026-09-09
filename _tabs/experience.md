@@ -8,7 +8,7 @@ order: 3
 <div class="experience-list">
 
 <article class="experience-item">
-  <div class="experience-head">
+    <div class="experience-head experience-head--sm">
     <strong>Institute of International Exchange</strong>
     <time datetime="2022-01">Jan 2022 - Apr 2022</time>
   </div>
@@ -16,7 +16,7 @@ order: 3
 </article>
 
 <article class="experience-item">
-  <div class="experience-head">
+    <div class="experience-head experience-head--sm">
     <strong>China University of Petroleum (East China) Press</strong>
     <time datetime="2021-11">Nov 2021 - May 2022</time>
   </div>
