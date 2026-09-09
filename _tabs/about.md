@@ -7,7 +7,7 @@ order: 1
 
 ## About Me
 
-I am a PhD student at the School of Computer Science and Technology, University of Science and Technology of China (USTC), and a member of the [EIT-NLP](https://idt.eitech.edu.cn/nlp/#/) laboratory. My research focuses on **LLM Agents**, **Harness Engineering**, and **Tool Learning**.
+I am a PhD student at the School of Computer Science and Technology, University of Science and Technology of China (USTC), and a member of the <a href="https://idt.eitech.edu.cn/nlp/" target="_blank" rel="noopener">EIT-NLP</a> laboratory. My research focuses on **LLM Agents**, **Harness Engineering**, and **Tool Learning**.
 
 Before entering my PhD program, I spent three years in USTC's graduate program in Safety Science and Engineering, where I worked on multimodal learning and intelligent sensing systems. I am passionate about building capable and reliable AI agents that can interact with the real world through tools.
 

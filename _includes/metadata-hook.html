@@ -5,16 +5,14 @@
   href="https://fonts.googleapis.com/css2?family=Sora:wght@500;600;700&family=Source+Sans+3:ital,wght@0,400;0,600;1,400&display=swap"
   rel="stylesheet"
 >
-<link rel="stylesheet" href="{{ '/assets/css/custom.css' | relative_url }}?v=20260909b">
+<link id="custom-css" rel="stylesheet" href="{{ '/assets/css/custom.css' | relative_url }}">
 <script>
   (function () {
-    // Ensure custom.css wins over theme by also appending it at end of <body>.
     function ensureCustomCssLast() {
-      var href = "{{ '/assets/css/custom.css' | relative_url }}?v=20260909b";
-      if (document.querySelector('link[data-custom-css-late="1"]')) return;
-      var link = document.createElement('link');
-      link.rel = 'stylesheet';
-      link.href = href;
+      var original = document.getElementById('custom-css');
+      if (!original || document.querySelector('link[data-custom-css-late="1"]')) return;
+      var link = original.cloneNode(true);
+      link.removeAttribute('id');
       link.setAttribute('data-custom-css-late', '1');
       document.head.appendChild(link);
     }
@@ -24,7 +22,6 @@
       ensureCustomCssLast();
     }
 
-    // Kill stale Chirpy PWA workers/caches so design updates stick after navigation.
     if ('serviceWorker' in navigator) {
       navigator.serviceWorker.getRegistrations().then(function (regs) {
         regs.forEach(function (reg) {
