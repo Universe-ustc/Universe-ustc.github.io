@@ -1,2 +1,28 @@
-<!-- Custom site styles -->
+<!-- Custom site styles + ambiance (injected into #core-wrapper) -->
 <link rel="stylesheet" href="{{ '/assets/css/custom.css' | relative_url }}">
+<script>
+  (function () {
+    function mountAmbiance() {
+      if (document.querySelector('.site-ambiance')) return;
+      var host = document.querySelector('#core-wrapper') || document.querySelector('#main-wrapper');
+      if (!host) return;
+      var wrap = document.createElement('div');
+      wrap.className = 'site-ambiance';
+      wrap.setAttribute('aria-hidden', 'true');
+      wrap.innerHTML =
+        '<div class="site-aurora"></div>' +
+        '<div class="site-meteors">' +
+        '<span class="meteor meteor--1"></span>' +
+        '<span class="meteor meteor--2"></span>' +
+        '<span class="meteor meteor--3"></span>' +
+        '<span class="meteor meteor--4"></span>' +
+        '</div>';
+      host.insertBefore(wrap, host.firstChild);
+    }
+    if (document.readyState === 'loading') {
+      document.addEventListener('DOMContentLoaded', mountAmbiance);
+    } else {
+      mountAmbiance();
+    }
+  })();
+</script>

@@ -8,6 +8,31 @@
   --home-aurora-violet: rgba(167, 139, 250, 0.38);
   --home-aurora-teal: rgba(45, 212, 191, 0.28);
   --home-aurora-lilac: rgba(221, 214, 254, 0.45);
+
+  /* Purple sidebar (overrides Chirpy defaults) */
+  --sidebar-bg: #5b21b6;
+  --sidebar-border-color: rgba(255, 255, 255, 0.14);
+  --sidebar-muted-color: rgba(237, 233, 254, 0.9);
+  --sidebar-active-color: #ffffff;
+  --sidebar-hover-bg: rgba(255, 255, 255, 0.14);
+  --sidebar-btn-bg: rgba(255, 255, 255, 0.16);
+  --sidebar-btn-color: #ede9fe;
+  --site-title-color: #ffffff;
+  --site-subtitle-color: rgba(237, 233, 254, 0.78);
+  --avatar-border-color: rgba(255, 255, 255, 0.55);
+}
+
+[data-bs-theme='light'] {
+  --sidebar-bg: #5b21b6;
+  --sidebar-border-color: rgba(255, 255, 255, 0.14);
+  --sidebar-muted-color: rgba(237, 233, 254, 0.9);
+  --sidebar-active-color: #ffffff;
+  --sidebar-hover-bg: rgba(255, 255, 255, 0.14);
+  --sidebar-btn-bg: rgba(255, 255, 255, 0.16);
+  --sidebar-btn-color: #ede9fe;
+  --site-title-color: #ffffff;
+  --site-subtitle-color: rgba(237, 233, 254, 0.78);
+  --avatar-border-color: rgba(255, 255, 255, 0.55);
 }
 
 [data-bs-theme='dark'],
@@ -19,6 +44,17 @@
   --home-aurora-violet: rgba(139, 92, 246, 0.22);
   --home-aurora-teal: rgba(45, 212, 191, 0.16);
   --home-aurora-lilac: rgba(167, 139, 250, 0.14);
+
+  --sidebar-bg: #3b0764;
+  --sidebar-border-color: rgba(255, 255, 255, 0.12);
+  --sidebar-muted-color: rgba(221, 214, 254, 0.88);
+  --sidebar-active-color: #ffffff;
+  --sidebar-hover-bg: rgba(255, 255, 255, 0.12);
+  --sidebar-btn-bg: rgba(255, 255, 255, 0.12);
+  --sidebar-btn-color: #ddd6fe;
+  --site-title-color: #ffffff;
+  --site-subtitle-color: rgba(221, 214, 254, 0.72);
+  --avatar-border-color: rgba(196, 181, 253, 0.55);
 }
 
 /* Larger base type across the site */
@@ -28,6 +64,10 @@ html {
 
 #sidebar .nav-link {
   font-size: 1.05rem;
+}
+
+#sidebar .nav-item.active .nav-link {
+  color: var(--sidebar-active-color);
 }
 
 #sidebar .site-title {
@@ -53,7 +93,8 @@ article h1.dynamic-title {
   font-weight: 700;
   margin-bottom: 1.25rem;
   padding-bottom: 0.4rem;
-  border-bottom: 3px solid var(--section-heading-border);
+  border-bottom: 3px solid transparent;
+  border-image: linear-gradient(90deg, var(--section-heading-color), var(--accent-teal), transparent 80%) 1;
 }
 
 /* Home profile name */
@@ -83,7 +124,8 @@ article .content h2 {
   margin-top: 2rem;
   margin-bottom: 0.85rem;
   padding-bottom: 0.35rem;
-  border-bottom: 2px solid var(--section-heading-border);
+  border-bottom: 2px solid transparent;
+  border-image: linear-gradient(90deg, var(--section-heading-color), var(--accent-teal), transparent 78%) 1;
 }
 
 /* Subsection headings (h3) */
@@ -133,36 +175,57 @@ article .content h3 {
   top: 0.35rem;
 }
 
-/* Homepage only: light aurora wash + sparse shooting stars */
-.profile-home {
+/* Site-wide soft aurora + sparse shooting stars (mounted under #core-wrapper) */
+#core-wrapper,
+#main-wrapper {
   position: relative;
   isolation: isolate;
 }
 
-.home-aurora {
+.site-ambiance {
   position: absolute;
-  inset: -1.5rem -1.25rem auto;
-  height: min(26rem, 65vh);
-  z-index: -1;
-  pointer-events: none;
-  border-radius: 1.5rem;
-  background:
-    radial-gradient(ellipse 55% 65% at 18% 28%, var(--home-aurora-violet), transparent 62%),
-    radial-gradient(ellipse 50% 60% at 82% 22%, var(--home-aurora-teal), transparent 60%),
-    radial-gradient(ellipse 42% 48% at 52% 68%, var(--home-aurora-lilac), transparent 68%);
-  filter: blur(36px);
-  opacity: 0.95;
-  animation: home-aurora-drift 20s ease-in-out infinite alternate;
-}
-
-.home-meteors {
-  position: absolute;
-  inset: -1rem -0.5rem auto;
-  height: min(32rem, 78vh);
-  z-index: -1;
+  inset: 0;
+  z-index: 0;
   overflow: hidden;
   pointer-events: none;
-  border-radius: 1.25rem;
+}
+
+#core-wrapper > :not(.site-ambiance),
+#main-wrapper > :not(.site-ambiance) {
+  position: relative;
+  z-index: 1;
+}
+
+.site-aurora {
+  position: absolute;
+  inset: -4% -8% auto;
+  height: min(34rem, 72vh);
+  border-radius: 2rem;
+  background:
+    radial-gradient(ellipse 52% 58% at 14% 22%, var(--home-aurora-violet), transparent 64%),
+    radial-gradient(ellipse 46% 54% at 86% 18%, var(--home-aurora-teal), transparent 62%),
+    radial-gradient(ellipse 40% 46% at 48% 58%, var(--home-aurora-lilac), transparent 70%),
+    radial-gradient(ellipse 30% 34% at 70% 42%, rgba(109, 40, 217, 0.08), transparent 72%);
+  filter: blur(42px) saturate(1.08);
+  opacity: 0.92;
+  animation: home-aurora-drift 22s ease-in-out infinite alternate;
+}
+
+/* Fine grain for a slightly more premium wash */
+.site-aurora::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  opacity: 0.18;
+  mix-blend-mode: soft-light;
+  background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='0.55'/%3E%3C/svg%3E");
+}
+
+.site-meteors {
+  position: absolute;
+  inset: 0 0 auto;
+  height: min(36rem, 80vh);
+  overflow: hidden;
 }
 
 .meteor {
@@ -174,14 +237,39 @@ article .content h3 {
   background: linear-gradient(
     to bottom,
     rgba(255, 255, 255, 0) 0%,
-    rgba(167, 139, 250, 0.15) 35%,
-    rgba(109, 40, 217, 0.75) 72%,
-    rgba(45, 212, 191, 0.95) 100%
+    rgba(167, 139, 250, 0.12) 30%,
+    rgba(109, 40, 217, 0.65) 68%,
+    rgba(45, 212, 191, 0.55) 100%
   );
   opacity: 0;
   transform: rotate(118deg);
-  filter: drop-shadow(0 0 4px rgba(109, 40, 217, 0.35));
+  transform-origin: top center;
   animation: meteor-fall linear infinite;
+}
+
+/* Star tip at the head of each meteor trail */
+.meteor::after {
+  content: '';
+  position: absolute;
+  left: 50%;
+  bottom: -1px;
+  width: 14px;
+  height: 14px;
+  translate: -50% 50%;
+  background: radial-gradient(circle at 50% 50%, #fff 0 28%, #c4b5fd 42%, #2dd4bf 100%);
+  clip-path: polygon(
+    50% 0%,
+    61% 35%,
+    98% 35%,
+    68% 57%,
+    79% 91%,
+    50% 70%,
+    21% 91%,
+    32% 57%,
+    2% 35%,
+    39% 35%
+  );
+  filter: drop-shadow(0 0 5px rgba(167, 139, 250, 0.85)) drop-shadow(0 0 2px rgba(45, 212, 191, 0.7));
 }
 
 .meteor--1 {
@@ -222,6 +310,13 @@ article .content h3 {
   color: var(--accent-teal);
 }
 
+#sidebar {
+  background:
+    radial-gradient(ellipse 120% 60% at 0% 0%, rgba(167, 139, 250, 0.35), transparent 55%),
+    radial-gradient(ellipse 90% 50% at 100% 100%, rgba(45, 212, 191, 0.18), transparent 50%),
+    var(--sidebar-bg);
+}
+
 @keyframes home-aurora-drift {
   from {
     transform: translate3d(-1.5%, -1%, 0) scale(1);
@@ -253,7 +348,7 @@ article .content h3 {
 }
 
 @media (prefers-reduced-motion: reduce) {
-  .home-aurora,
+  .site-aurora,
   .meteor {
     animation: none;
   }
@@ -420,4 +515,32 @@ article .content h3 {
   display: flex !important;
   align-items: center;
   justify-content: center;
+}
+
+/* Right-panel / tag chips: green selected & hover instead of Bootstrap blue */
+.post-tag.btn-outline-primary,
+#panel-wrapper .post-tag.btn-outline-primary {
+  --bs-btn-color: var(--accent-teal);
+  --bs-btn-border-color: rgba(15, 118, 110, 0.32);
+  --bs-btn-hover-color: #fff;
+  --bs-btn-hover-bg: var(--accent-teal);
+  --bs-btn-hover-border-color: var(--accent-teal);
+  --bs-btn-active-color: #fff;
+  --bs-btn-active-bg: var(--accent-teal);
+  --bs-btn-active-border-color: var(--accent-teal);
+  --bs-btn-active-shadow: inset 0 3px 5px rgba(15, 118, 110, 0.2);
+  --bs-btn-focus-shadow-rgb: 15, 118, 110;
+}
+
+[data-bs-theme='dark'] .post-tag.btn-outline-primary,
+[data-bs-theme='dark'] #panel-wrapper .post-tag.btn-outline-primary {
+  --bs-btn-color: var(--accent-teal);
+  --bs-btn-border-color: rgba(94, 234, 212, 0.4);
+  --bs-btn-hover-color: #042f2e;
+  --bs-btn-hover-bg: var(--accent-teal);
+  --bs-btn-hover-border-color: var(--accent-teal);
+  --bs-btn-active-color: #042f2e;
+  --bs-btn-active-bg: var(--accent-teal);
+  --bs-btn-active-border-color: var(--accent-teal);
+  --bs-btn-focus-shadow-rgb: 94, 234, 212;
 }
