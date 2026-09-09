@@ -8,6 +8,22 @@
 <link rel="stylesheet" href="{{ '/assets/css/custom.css' | relative_url }}">
 <script>
   (function () {
+    // Kill stale Chirpy PWA workers/caches so design updates stick after navigation.
+    if ('serviceWorker' in navigator) {
+      navigator.serviceWorker.getRegistrations().then(function (regs) {
+        regs.forEach(function (reg) {
+          reg.unregister();
+        });
+      });
+    }
+    if (window.caches && caches.keys) {
+      caches.keys().then(function (keys) {
+        keys.forEach(function (key) {
+          caches.delete(key);
+        });
+      });
+    }
+
     function mountAmbiance() {
       if (document.querySelector('.site-ambiance')) return;
       var host = document.querySelector('#core-wrapper') || document.querySelector('#main-wrapper');
