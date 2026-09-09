@@ -813,11 +813,10 @@ article .content h3 {
 .experience-head strong {
   min-width: 0;
   font-family: var(--font-display);
-  font-size: 1.2rem;
+  font-size: 1.1rem;
   font-weight: 700;
   letter-spacing: -0.02em;
   line-height: 1.35;
-  color: var(--section-heading-color);
 }
 
 .experience-head time,
