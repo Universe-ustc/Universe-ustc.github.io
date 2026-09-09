@@ -40,6 +40,7 @@ order: 4
   </div>
   <p class="experience-role">Core Contributor</p>
   <p class="experience-org">USTC Xiongying Fund</p>
+  <p class="experience-result">Outstanding Project Completion</p>
   <ul>
     <li>Owned grant writing and tightened the competition narrative around product and technical claims.</li>
     <li>Led visual design for posters and the product handbook used in outreach and review.</li>
