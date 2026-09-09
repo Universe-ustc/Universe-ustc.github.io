@@ -5,9 +5,25 @@
   href="https://fonts.googleapis.com/css2?family=Sora:wght@500;600;700&family=Source+Sans+3:ital,wght@0,400;0,600;1,400&display=swap"
   rel="stylesheet"
 >
-<link rel="stylesheet" href="{{ '/assets/css/custom.css' | relative_url }}">
+<link rel="stylesheet" href="{{ '/assets/css/custom.css' | relative_url }}?v=20260909b">
 <script>
   (function () {
+    // Ensure custom.css wins over theme by also appending it at end of <body>.
+    function ensureCustomCssLast() {
+      var href = "{{ '/assets/css/custom.css' | relative_url }}?v=20260909b";
+      if (document.querySelector('link[data-custom-css-late="1"]')) return;
+      var link = document.createElement('link');
+      link.rel = 'stylesheet';
+      link.href = href;
+      link.setAttribute('data-custom-css-late', '1');
+      document.head.appendChild(link);
+    }
+    if (document.readyState === 'loading') {
+      document.addEventListener('DOMContentLoaded', ensureCustomCssLast);
+    } else {
+      ensureCustomCssLast();
+    }
+
     // Kill stale Chirpy PWA workers/caches so design updates stick after navigation.
     if ('serviceWorker' in navigator) {
       navigator.serviceWorker.getRegistrations().then(function (regs) {
