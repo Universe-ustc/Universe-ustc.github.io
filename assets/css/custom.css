@@ -799,8 +799,8 @@ article .content h3 {
 
 .experience-item p.experience-result {
   margin: 0.12rem 0 0;
-  font-size: 0.95rem;
-  font-weight: 650;
+  font-size: inherit;
+  font-weight: 700;
   color: var(--accent-teal);
 }
 
@@ -874,22 +874,17 @@ article .content h3 {
 }
 
 .award-compact li::marker {
-  color: var(--accent-teal);
-}
-
-.award-compact strong,
-.award-name,
-.award-prize {
-  color: var(--accent-teal);
+  color: inherit;
 }
 
 .award-compact strong,
 .award-name {
+  color: var(--accent-teal);
   font-weight: 700;
 }
 
-.award-prize {
-  font-weight: 600;
+.award-compact li.award-first {
+  color: var(--accent-teal);
 }
 
 @media (max-width: 768px) {

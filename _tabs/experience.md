@@ -49,19 +49,19 @@ order: 3
 
 <p class="award-subhead">Selected additional results</p>
 <ul class="award-compact">
-  <li>National 3D Contest Elite League: <strong>National Second Prize</strong>; <span class="award-prize">Provincial Special Prize</span>; <span class="award-prize">two Provincial First Prizes</span></li>
-  <li>Shandong Mechanical and Electrical Product Innovation Design Competition: <span class="award-prize">Provincial First Prize</span>; <span class="award-prize">Provincial Second Prize</span></li>
-  <li>Shandong Equipment Manufacturing Innovation Competition: <span class="award-prize">two Provincial Second Prizes</span>; <span class="award-prize">Provincial Third Prize</span></li>
-  <li>National 3D Digital Innovative Design Competition: <span class="award-prize">two Provincial Second Prizes</span></li>
-  <li>Shandong Intelligent Manufacturing Competition: <span class="award-prize">two Provincial Second Prizes</span>; <span class="award-prize">two Provincial Third Prizes</span></li>
+  <li class="award-first">National 3D Contest Elite League: <strong>National Second Prize</strong>; Provincial Special Prize; two Provincial First Prizes</li>
+  <li>Shandong Mechanical and Electrical Product Innovation Design Competition: Provincial First Prize; Provincial Second Prize</li>
+  <li>Shandong Equipment Manufacturing Innovation Competition: two Provincial Second Prizes; Provincial Third Prize</li>
+  <li>National 3D Digital Innovative Design Competition: two Provincial Second Prizes</li>
+  <li>Shandong Intelligent Manufacturing Competition: two Provincial Second Prizes; two Provincial Third Prizes</li>
 </ul>
 
 <p class="award-subhead">Innovation awards</p>
 <ul class="award-compact">
-  <li><strong>Outstanding Star Scholarship for Innovation and Entrepreneurship Practice &mdash; First Prize (top 1/20 university-wide)</strong>; <span class="award-prize">Third Prize</span></li>
+  <li><strong>Outstanding Star Scholarship for Innovation and Entrepreneurship Practice &mdash; First Prize (top 1/20 university-wide)</strong>; Third Prize</li>
   <li>Dean's Award: Star of Scientific and Technological Innovation</li>
-  <li>Scientific and Technological Innovation Scholarship (<span class="award-prize">two awards</span>)</li>
-  <li>National College Student Innovation and Entrepreneurship Training Program &mdash; High-efficiency vertical-axis wind turbine with local variable pitch; <span class="award-prize">Excellent Project Completion</span></li>
+  <li>Scientific and Technological Innovation Scholarship (two awards)</li>
+  <li>National College Student Innovation and Entrepreneurship Training Program &mdash; High-efficiency vertical-axis wind turbine with local variable pitch; Excellent Project Completion</li>
 </ul>
 
 ---
