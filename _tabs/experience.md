@@ -49,7 +49,7 @@ order: 3
 
 <p class="award-subhead">Selected additional results</p>
 <ul class="award-compact">
-  <li class="award-first">National 3D Contest Elite League: <strong>National Second Prize</strong>; Provincial Special Prize; two Provincial First Prizes</li>
+  <li class="award-first"><strong>National 3D Contest Elite League: National Second Prize; Provincial Special Prize; two Provincial First Prizes</strong></li>
   <li>Shandong Mechanical and Electrical Product Innovation Design Competition: Provincial First Prize; Provincial Second Prize</li>
   <li>Shandong Equipment Manufacturing Innovation Competition: two Provincial Second Prizes; Provincial Third Prize</li>
   <li>National 3D Digital Innovative Design Competition: two Provincial Second Prizes</li>
@@ -76,6 +76,9 @@ order: 3
     <time datetime="2024-2025">2024-2025</time>
   </div>
   <p class="experience-org">State Key Laboratory of Fire Science, USTC</p>
+  <ul>
+    <li>Compiled statistics and reports, and helped coordinate day-to-day institute affairs.</li>
+  </ul>
 </article>
 
 <article class="experience-item">
@@ -84,6 +87,10 @@ order: 3
     <time datetime="2023-2024">2023-2024</time>
   </div>
   <p class="experience-org">USTC Youth League Committee; Member, 12th Graduate Student Union Committee</p>
+  <ul>
+    <li>Logged 200+ hours of service and ran 50+ programs, spanning Qingfeng Cup outreach through finals, USTC Students in Anhui, USTC Students in Baohe, and visits to the Institute of Advanced Technology.</li>
+    <li>Published 43 WeChat posts during the term, reaching 1.67w+ views.</li>
+  </ul>
 </article>
 
 <article class="experience-item">
@@ -92,6 +99,11 @@ order: 3
     <time datetime="2023-2024">2023-2024</time>
   </div>
   <p class="experience-org">State Key Laboratory of Fire Science, USTC; Secretary, self-organized Youth League branch</p>
+  <p class="experience-result">May Fourth Red Flag League Branch Pacesetter</p>
+  <ul>
+    <li>Produced 40+ programs, including the Safety Science Graduate Forum, the See You graduation series, career talks, and Girls' Festival.</li>
+    <li>Grew the official WeChat account by 717 followers, published 169 posts, and reached 7.33w+ views with 2,544 shares.</li>
+  </ul>
 </article>
 
 <article class="experience-item">
@@ -100,6 +112,10 @@ order: 3
     <time datetime="2022-2023">2022-2023</time>
   </div>
   <p class="experience-org">State Key Laboratory of Fire Science, USTC</p>
+  <p class="experience-result">Outstanding League Branch</p>
+  <ul>
+    <li>Ran routine class operations, including notices, surveys, and student activities.</li>
+  </ul>
 </article>
 
 <article class="experience-item">
@@ -108,6 +124,10 @@ order: 3
     <time datetime="2022">2022</time>
   </div>
   <p class="experience-org">China University of Petroleum (East China)</p>
+  <p class="experience-result">Advanced Company; Advanced Regiment</p>
+  <ul>
+    <li>Led drills and barracks inspections.</li>
+  </ul>
 </article>
 
 <article class="experience-item">
@@ -116,6 +136,10 @@ order: 3
     <time datetime="2021-2022">2021-2022</time>
   </div>
   <p class="experience-org">College of Mechanical and Electronic Engineering, China University of Petroleum (East China)</p>
+  <p class="experience-result">100% contest participation; 100% award rate</p>
+  <ul>
+    <li>The junior year produced 49 scientific and technological outcomes.</li>
+  </ul>
 </article>
 
 <article class="experience-item">
@@ -125,6 +149,10 @@ order: 3
   </div>
   <p class="experience-org">College of Mechanical and Electronic Engineering, China University of Petroleum (East China)</p>
   <p>Vice President (2020-2021); Minister, Innovation Training Department (2019-2020).</p>
+  <p class="experience-result">100% contest participation; 100% award rate</p>
+  <ul>
+    <li>Ran club training and administered the full Innovation Training Program cycle, from reimbursement and proposal through mid-term review and closeout, alongside experience-sharing sessions and outreach talks.</li>
+  </ul>
 </article>
 
 </div>
