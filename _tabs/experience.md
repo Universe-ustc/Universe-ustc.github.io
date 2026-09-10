@@ -3,7 +3,7 @@ icon: fas fa-briefcase
 order: 3
 ---
 
-## Competitions
+## Innovation Competitions
 
 <div class="experience-list">
 
