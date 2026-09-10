@@ -88,8 +88,8 @@ order: 3
   </div>
   <p class="experience-org">USTC Youth League Committee; Member, 12th Graduate Student Union Committee</p>
   <ul>
-    <li>Logged 200+ hours of service and ran 50+ programs, spanning Qingfeng Cup outreach through finals, USTC Students in Anhui, USTC Students in Baohe, and visits to the Institute of Advanced Technology.</li>
-    <li>Published 43 WeChat posts during the term, reaching 1.67w+ views.</li>
+    <li>Logged <strong class="award-name">200+</strong> hours of service and ran <strong class="award-name">50+</strong> programs, spanning Qingfeng Cup outreach through finals, USTC Students in Anhui, USTC Students in Baohe, and visits to the Institute of Advanced Technology.</li>
+    <li>Published <strong class="award-name">43</strong> WeChat posts during the term, reaching <strong class="award-name">1.67w+</strong> views.</li>
   </ul>
 </article>
 
@@ -101,8 +101,8 @@ order: 3
   <p class="experience-org">State Key Laboratory of Fire Science, USTC; Secretary, self-organized Youth League branch</p>
   <p class="experience-result">May Fourth Red Flag League Branch Pacesetter</p>
   <ul>
-    <li>Produced 40+ programs, including the Safety Science Graduate Forum, the See You graduation series, career talks, and Girls' Festival.</li>
-    <li>Grew the official WeChat account by 717 followers, published 169 posts, and reached 7.33w+ views with 2,544 shares.</li>
+    <li>Produced <strong class="award-name">40+</strong> programs, including the Safety Science Graduate Forum, the See You graduation series, career talks, and Girls' Festival.</li>
+    <li>Grew the official WeChat account by <strong class="award-name">717</strong> followers, published <strong class="award-name">169</strong> posts, and reached <strong class="award-name">7.33w+</strong> views with <strong class="award-name">2.54k</strong> shares.</li>
   </ul>
 </article>
 
@@ -138,7 +138,7 @@ order: 3
   <p class="experience-org">College of Mechanical and Electronic Engineering, China University of Petroleum (East China)</p>
   <p class="experience-result">100% contest participation; 100% award rate</p>
   <ul>
-    <li>The junior year produced 49 scientific and technological outcomes.</li>
+    <li>The junior year produced <strong class="award-name">49</strong> scientific and technological outcomes.</li>
   </ul>
 </article>
 
@@ -159,7 +159,7 @@ order: 3
 
 <p class="award-subhead">Selected honors</p>
 <ul class="award-compact">
-  <li><strong>Chinese Academy of Sciences Outstanding League Member</strong> (top 1/15 university-wide)</li>
+  <li><strong>Chinese Academy of Sciences Outstanding League Member (top 1/15 university-wide)</strong></li>
   <li><strong>USTC Outstanding Graduate</strong>; <strong>Anhui Outstanding Graduate</strong></li>
   <li><strong>Shandong Outstanding Graduate</strong></li>
   <li>Outstanding League Cadre (4 awards); Outstanding League Member (5 awards); Outstanding Student Cadre (5 awards)</li>
