@@ -860,6 +860,7 @@ article .content h3 {
   font-family: var(--font-display);
   font-size: 1.02rem;
   font-weight: 650;
+  color: var(--section-heading-color);
 }
 
 .award-compact {
