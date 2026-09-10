@@ -195,7 +195,7 @@ order: 3
     <time datetime="2023">2023</time>
   </div>
   <p class="experience-org">USTC team at Qingtian Middle School and Shankou Town Middle School, Zhejiang; covered by Lishui TV</p>
-  <p class="experience-result">Outstanding Individual; Team Second Prize; Outstanding Survey Report</p>
+  <p class="experience-result">Team Second Prize; Outstanding Survey Report</p>
   <ul>
     <li>Helped unveil USTC social-practice education bases at both schools and tutored students, including children of overseas Chinese families.</li>
     <li>Ran science talks, study-method workshops, career sharing, and hands-on classrooms at the two campuses.</li>
@@ -242,6 +242,7 @@ order: 3
 <p class="award-subhead">Selected additional service</p>
 <ul class="award-compact">
   <li>Night-run relay commemorating the December 9th Movement, Eastern Institute of Technology, Ningbo (2025)</li>
+  <li>&quot;Go to the Countryside&quot; Social Practice in Gansu and Qinghai (2023); <strong>Outstanding Individual</strong></li>
   <li>Safety Science and Technology Summer Camp, State Key Laboratory of Fire Science (2023, 2024)</li>
   <li>USTC Alumni Homecoming volunteer (2024)</li>
   <li>Anhui Children's Leukemia Charity Gala, the Second Affiliated Hospital of Anhui Medical University (2023)</li>
