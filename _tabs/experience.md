@@ -242,14 +242,14 @@ order: 3
 <p class="award-subhead">Selected additional service</p>
 <ul class="award-compact">
   <li>Night-run relay commemorating the December 9th Movement, Eastern Institute of Technology, Ningbo (2025)</li>
-  <li>&quot;Go to the Countryside&quot; Social Practice in Gansu and Qinghai (2023); <strong>Outstanding Individual</strong></li>
   <li>Safety Science and Technology Summer Camp, State Key Laboratory of Fire Science (2023, 2024)</li>
   <li>USTC Alumni Homecoming volunteer (2024)</li>
+  <li>&quot;Go to the Countryside&quot; Social Practice in Gansu and Qinghai (2023); <strong>Outstanding Individual</strong></li>
   <li>Anhui Children's Leukemia Charity Gala, the Second Affiliated Hospital of Anhui Medical University (2023)</li>
   <li>Campus marathon commemorating the 104th anniversary of the May Fourth Movement (2023)</li>
   <li>Mendelssohn International Piano Competition, Asia-Pacific Finals (2021)</li>
-  <li>Irmler (Qingdao) International Piano Open (2019); <strong>Outstanding Volunteer Certificate</strong></li>
   <li>COVID-19 prevention volunteer, Huaihua Red Cross Hospital (2021)</li>
+  <li>Irmler (Qingdao) International Piano Open (2019); <strong>Outstanding Volunteer Certificate</strong></li>
   <li>Blue Ribbon Ocean Conservation Association beach cleanup, Qingdao (2019)</li>
 </ul>
 
