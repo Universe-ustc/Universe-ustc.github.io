@@ -26,7 +26,7 @@ order: 4
     <time datetime="2023">2023</time>
   </div>
   <p class="experience-role">Core Contributor</p>
-  <p class="experience-org">CSCEC Science and Technology R&amp;D Program</p>
+  <p class="experience-org">China State Construction Engineering Corporation (CSCEC) Science and Technology R&amp;D Program</p>
   <ul>
     <li>Ran depressurization and air-supply experiments in a pressurized cabin and placed sensors at safety-critical measurement points.</li>
     <li>Quantified evacuation-safety margins from the collected traces to inform emergency-response design.</li>
@@ -39,7 +39,7 @@ order: 4
     <time datetime="2023-2024">2023-2024</time>
   </div>
   <p class="experience-role">Core Contributor</p>
-  <p class="experience-org">USTC Xiongying Fund</p>
+  <p class="experience-org">USTC Eagle Fund (Xiongying)</p>
   <p class="experience-result">Outstanding Project Completion</p>
   <ul>
     <li>Owned grant writing and tightened the competition narrative around product and technical claims.</li>

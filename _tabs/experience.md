@@ -9,7 +9,7 @@ order: 3
 
 <article class="experience-item">
   <div class="experience-head">
-    <strong>Xinghuo Cup LLM Application Innovation Competition</strong>
+    <strong>Spark Cup LLM Application Innovation Competition</strong>
     <time datetime="2024">2024</time>
   </div>
   <p class="experience-role">First Prize</p>
@@ -27,7 +27,7 @@ order: 3
   <p class="experience-role">Team Captain &middot; Shandong First Prize</p>
   <p class="experience-org">Potential-Energy-Driven Vehicle, Engineering Fundamentals Track</p>
   <ul>
-    <li>Led structural design and track layout from first-principles calculations, and generated cam profiles with the Mighty CAD toolkit.</li>
+    <li>Led structural design and track layout from first-principles calculations, and generated cam profiles with the MAIDI CAD toolkit.</li>
     <li>Machined and assembled the vehicle, then diagnosed drivetrain resistance and path-tracking errors through iterative testing.</li>
   </ul>
 </article>
@@ -38,7 +38,7 @@ order: 3
     <time datetime="2020">2020</time>
   </div>
   <p class="experience-role">Team Captain &middot; Shandong Special Prize; two National Second Prizes</p>
-  <p class="experience-org">Spirit-Beast Innovation Track and Industrial Track</p>
+  <p class="experience-org">Lingshou Innovation and Entrepreneurship Track and Industrial Track</p>
   <ul>
     <li>Launched a digital-workshop storefront, designed poster and QR campaigns, met the revenue target, and ran the community operation.</li>
     <li>Qualified as an outstanding camp member with a direct berth to the national final.</li>
@@ -89,7 +89,7 @@ order: 3
   </div>
   <p class="experience-org">USTC Youth League Committee; Member, 12th Graduate Student Union Committee</p>
   <ul>
-    <li>Logged <strong class="award-name">200+</strong> hours of service and ran <strong class="award-name">50+</strong> programs, spanning Qingfeng Cup outreach through finals, USTC Students in Anhui, USTC Students in Baohe, and visits to the Institute of Advanced Technology.</li>
+    <li>Logged <strong class="award-name">200+</strong> hours of service and ran <strong class="award-name">50+</strong> programs, spanning Qingfeng Cup outreach through finals, USTC Students' Anhui Journey, USTC Students in Baohe District, and visits to the Institute of Advanced Technology.</li>
     <li>Published <strong class="award-name">43</strong> WeChat posts during the term, reaching <strong class="award-name">1.67w+</strong> views.</li>
   </ul>
 </article>
@@ -149,7 +149,7 @@ order: 3
     <time datetime="2019-2021">2019-2021</time>
   </div>
   <p class="experience-org">College of Mechanical and Electronic Engineering, China University of Petroleum (East China)</p>
-  <p>Vice President (2020-2021); Minister, Innovation Training Department (2019-2020).</p>
+  <p>Vice President (2020-2021); Head of the Innovation Training Department (2019-2020).</p>
   <p class="experience-result">100% participation in innovation contests; 100% award rate</p>
   <ul>
     <li>Ran club training and administered the full Innovation Training Program cycle, from reimbursement and proposal through mid-term review and closeout, alongside experience-sharing sessions and outreach talks.</li>
@@ -165,7 +165,7 @@ order: 3
   <li><strong>Shandong Outstanding Graduate</strong></li>
   <li>Outstanding League Cadre (4 awards); Outstanding League Member (5 awards); Outstanding Student Cadre (5 awards)</li>
   <li>Outstanding Student Backbone, Youth Innovation Center (2 awards)</li>
-  <li>Outstanding Trainee, Young Marxists Training Program ("Six Haves" cohort)</li>
+  <li>Outstanding Trainee, Young Marxists Training Program (Qingma)</li>
   <li>Outstanding Student Cadre, SKLFS Graduate Student Union</li>
   <li>Outstanding Student</li>
 </ul>
@@ -178,7 +178,7 @@ order: 3
 
 <article class="experience-item">
   <div class="experience-head experience-head--sm">
-    <strong>Sanxiaxiang Social Practice: Guarding the Scotch Pine, Seeking the Ewenki</strong>
+    <strong>&quot;Go to the Countryside&quot; Social Practice: Guarding the Scotch Pine, Seeking the Ewenki</strong>
     <time datetime="2024">2024</time>
   </div>
   <p class="experience-org">USTC team in Hulunbuir, Inner Mongolia; covered by the Genhe Youth League Committee</p>
@@ -191,11 +191,11 @@ order: 3
 
 <article class="experience-item">
   <div class="experience-head experience-head--sm">
-    <strong>Sanxiaxiang Social Practice: Peer Exchange, Helping Lishui Grow</strong>
+    <strong>&quot;Go to the Countryside&quot; Social Practice: Peer Exchange, Helping Lishui Grow</strong>
     <time datetime="2023">2023</time>
   </div>
   <p class="experience-org">USTC team at Qingtian Middle School and Shankou Town Middle School, Zhejiang; covered by Lishui TV</p>
-  <p class="experience-result">Outstanding Individual (2 awards); Team Second Prize; Outstanding Survey Report</p>
+  <p class="experience-result">Outstanding Individual; Team Second Prize; Outstanding Survey Report</p>
   <ul>
     <li>Helped unveil USTC social-practice education bases at both schools and tutored students, including children of overseas Chinese families.</li>
     <li>Ran science talks, study-method workshops, career sharing, and hands-on classrooms at the two campuses.</li>
@@ -204,10 +204,10 @@ order: 3
 
 <article class="experience-item">
   <div class="experience-head experience-head--sm">
-    <strong>Science and Technology Week Exhibition Volunteer</strong>
+    <strong>National Science and Technology Week Exhibition Volunteer</strong>
     <time datetime="2023">2023</time>
   </div>
-  <p class="experience-org">Popular-science exhibition; livestreamed on China Science Communication, Guangming Online, Douyin, Koushare, and Bilibili</p>
+  <p class="experience-org">Science-popularization exhibition; livestreamed on China Science Communication, Guangming Online, Douyin, Koushare, and Bilibili</p>
   <p class="experience-result">Outstanding Volunteer for Science Popularization</p>
   <ul>
     <li>Recorded and supported a popular-science video that reached more than <strong class="award-name">100w+</strong> online views.</li>
@@ -228,7 +228,7 @@ order: 3
 
 <article class="experience-item">
   <div class="experience-head experience-head--sm">
-    <strong>Tongyuan Plan Rural Summer Camp</strong>
+    <strong>Children's Wish Plan Rural Summer Camp</strong>
     <time datetime="2019">2019</time>
   </div>
   <p class="experience-org">China Charities Aid Foundation for Children; Yingxing Primary School, Dafang County, Bijie, Guizhou</p>
@@ -246,9 +246,10 @@ order: 3
   <li>USTC Alumni Homecoming volunteer (2024)</li>
   <li>Anhui Children's Leukemia Charity Gala, the Second Affiliated Hospital of Anhui Medical University (2023)</li>
   <li>Campus marathon commemorating the 104th anniversary of the May Fourth Movement (2023)</li>
-  <li>Mendelssohn International Piano Competition, Asia-Pacific Finals (2021); Irmler (Qingdao) International Piano Open, Outstanding Volunteer Certificate (2019)</li>
+  <li>Mendelssohn International Piano Competition, Asia-Pacific Finals (2021)</li>
+  <li>Irmler (Qingdao) International Piano Open (2019); <strong>Outstanding Volunteer Certificate</strong></li>
   <li>COVID-19 prevention volunteer, Huaihua Red Cross Hospital (2021)</li>
-  <li>Blue Ribbon Marine Conservation beach cleanup, Qingdao (2019)</li>
+  <li>Blue Ribbon Ocean Conservation Association beach cleanup, Qingdao (2019)</li>
 </ul>
 
 <p class="award-subhead">Volunteer honors</p>
@@ -287,4 +288,8 @@ order: 3
 
 ## Other Rewards
 
-<p class="text-muted"><em>Coming soon.</em></p>
+<ul class="award-compact">
+  <li class="award-first"><strong>Champion, USTC Jingguo Cup Women's Football Tournament (2025)</strong></li>
+  <li>Culture and Sports Scholarship (2021)</li>
+  <li>Shandong Undergraduate Physics Competition, Second Prize (2019)</li>
+</ul>

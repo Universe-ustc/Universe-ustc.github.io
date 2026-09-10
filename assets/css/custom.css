@@ -224,10 +224,14 @@ article .profile-home h1.profile-name {
 }
 
 .profile-home .profile-affiliation {
-  margin: 0 0 1.25rem;
+  margin: 0;
   color: var(--text-muted-color, #6c757d);
   font-size: 0.98rem;
   line-height: 1.5;
+}
+
+.profile-home .profile-affiliation + .profile-affiliation {
+  margin: 0.25rem 0 1.25rem;
 }
 
 .home-focus {
