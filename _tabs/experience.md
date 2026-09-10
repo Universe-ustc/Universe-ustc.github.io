@@ -76,6 +76,7 @@ order: 3
     <time datetime="2024-2025">2024-2025</time>
   </div>
   <p class="experience-org">State Key Laboratory of Fire Science, USTC</p>
+  <p class="experience-result">CAS May Fourth Red Flag Youth League Committee</p>
   <ul>
     <li>Compiled statistics and reports, and helped coordinate day-to-day institute affairs.</li>
   </ul>
@@ -136,7 +137,7 @@ order: 3
     <time datetime="2021-2022">2021-2022</time>
   </div>
   <p class="experience-org">College of Mechanical and Electronic Engineering, China University of Petroleum (East China)</p>
-  <p class="experience-result">100% contest participation; 100% award rate</p>
+  <p class="experience-result">100% participation in innovation contests; 100% award rate</p>
   <ul>
     <li>The junior year produced <strong class="award-name">49</strong> scientific and technological outcomes.</li>
   </ul>
@@ -149,7 +150,7 @@ order: 3
   </div>
   <p class="experience-org">College of Mechanical and Electronic Engineering, China University of Petroleum (East China)</p>
   <p>Vice President (2020-2021); Minister, Innovation Training Department (2019-2020).</p>
-  <p class="experience-result">100% contest participation; 100% award rate</p>
+  <p class="experience-result">100% participation in innovation contests; 100% award rate</p>
   <ul>
     <li>Ran club training and administered the full Innovation Training Program cycle, from reimbursement and proposal through mid-term review and closeout, alongside experience-sharing sessions and outreach talks.</li>
   </ul>
@@ -173,7 +174,89 @@ order: 3
 
 ## Social Practice and Volunteer Service
 
-<p class="text-muted"><em>Coming soon.</em></p>
+<div class="experience-list">
+
+<article class="experience-item">
+  <div class="experience-head experience-head--sm">
+    <strong>Sanxiaxiang Social Practice: Guarding the Scotch Pine, Seeking the Ewenki</strong>
+    <time datetime="2024">2024</time>
+  </div>
+  <p class="experience-org">USTC team in Hulunbuir, Inner Mongolia; covered by the Genhe Youth League Committee</p>
+  <p class="experience-result">Outstanding Individual; Team Third Prize; Outstanding Survey Report</p>
+  <ul>
+    <li>Visited the Aoluguya Museum and Qiqian Village, a historic Ewenki settlement on the Erguna River, and interviewed reindeer herders in Aoluguya Ethnic Township.</li>
+    <li>Joined community science outreach in Genhe and surveyed local ecology at the Genheyuan National Wetland Park.</li>
+  </ul>
+</article>
+
+<article class="experience-item">
+  <div class="experience-head experience-head--sm">
+    <strong>Sanxiaxiang Social Practice: Peer Exchange, Helping Lishui Grow</strong>
+    <time datetime="2023">2023</time>
+  </div>
+  <p class="experience-org">USTC team at Qingtian Middle School and Shankou Town Middle School, Zhejiang; covered by Lishui TV</p>
+  <p class="experience-result">Outstanding Individual (2 awards); Team Second Prize; Outstanding Survey Report</p>
+  <ul>
+    <li>Helped unveil USTC social-practice education bases at both schools and tutored students, including children of overseas Chinese families.</li>
+    <li>Ran science talks, study-method workshops, career sharing, and hands-on classrooms at the two campuses.</li>
+  </ul>
+</article>
+
+<article class="experience-item">
+  <div class="experience-head experience-head--sm">
+    <strong>Science and Technology Week Exhibition Volunteer</strong>
+    <time datetime="2023">2023</time>
+  </div>
+  <p class="experience-org">Popular-science exhibition; livestreamed on China Science Communication, Guangming Online, Douyin, Koushare, and Bilibili</p>
+  <p class="experience-result">Outstanding Volunteer for Science Popularization</p>
+  <ul>
+    <li>Recorded and supported a popular-science video that reached more than <strong class="award-name">100w+</strong> online views.</li>
+  </ul>
+</article>
+
+<article class="experience-item">
+  <div class="experience-head experience-head--sm">
+    <strong>USTC Outstanding Undergraduates Summer Camp Volunteer</strong>
+    <time datetime="2022">2022</time>
+  </div>
+  <p class="experience-org">Graduate admissions outreach, University of Science and Technology of China</p>
+  <p class="experience-result">Outstanding Volunteer</p>
+  <ul>
+    <li>Posted <strong class="award-name">150+</strong> updates and answered <strong class="award-name">85+</strong> inquiries; the feed reached <strong class="award-name">1.57k</strong> likes, <strong class="award-name">35</strong> shares, and <strong class="award-name">7.53k</strong> views.</li>
+  </ul>
+</article>
+
+<article class="experience-item">
+  <div class="experience-head experience-head--sm">
+    <strong>Tongyuan Plan Rural Summer Camp</strong>
+    <time datetime="2019">2019</time>
+  </div>
+  <p class="experience-org">China Charities Aid Foundation for Children; Yingxing Primary School, Dafang County, Bijie, Guizhou</p>
+  <ul>
+    <li>Taught and accompanied rural pupils in a two-week charity summer camp, combining classroom sessions with games and daily care.</li>
+  </ul>
+</article>
+
+</div>
+
+<p class="award-subhead">Selected additional service</p>
+<ul class="award-compact">
+  <li>Night-run relay commemorating the December 9th Movement, Eastern Institute of Technology, Ningbo (2025)</li>
+  <li>Safety Science and Technology Summer Camp, State Key Laboratory of Fire Science (2023, 2024)</li>
+  <li>USTC Alumni Homecoming volunteer (2024)</li>
+  <li>Anhui Children's Leukemia Charity Gala, the Second Affiliated Hospital of Anhui Medical University (2023)</li>
+  <li>Campus marathon commemorating the 104th anniversary of the May Fourth Movement (2023)</li>
+  <li>Mendelssohn International Piano Competition, Asia-Pacific Finals (2021); Irmler (Qingdao) International Piano Open, Outstanding Volunteer Certificate (2019)</li>
+  <li>COVID-19 prevention volunteer, Huaihua Red Cross Hospital (2021)</li>
+  <li>Blue Ribbon Marine Conservation beach cleanup, Qingdao (2019)</li>
+</ul>
+
+<p class="award-subhead">Volunteer honors</p>
+<ul class="award-compact">
+  <li>USTC Two-Star Volunteer; USTC One-Star Volunteer</li>
+  <li>Outstanding Volunteer, Graduate Orientation</li>
+  <li>Blood Donation Certificate</li>
+</ul>
 
 ---
 
