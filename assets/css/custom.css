@@ -792,7 +792,7 @@ article .content h3 {
 .experience-item p.experience-org {
   margin: 0.15rem 0 0;
   font-size: 1.02rem;
-  font-weight: 600;
+  font-weight: 400;
   line-height: 1.45;
   color: var(--heading-color, inherit);
 }
@@ -866,11 +866,18 @@ article .content h3 {
 .award-compact {
   margin: 0.35rem 0 1.25rem;
   padding-left: 1.2rem;
+  color: var(--accent-teal);
 }
 
 .award-compact li {
   margin-bottom: 0.4rem;
   line-height: 1.6;
+}
+
+.award-compact strong,
+.award-name {
+  color: var(--accent-teal);
+  font-weight: 700;
 }
 
 @media (max-width: 768px) {

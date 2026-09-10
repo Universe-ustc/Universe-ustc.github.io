@@ -49,7 +49,7 @@ order: 3
 
 <p class="award-subhead">Selected additional results</p>
 <ul class="award-compact">
-  <li>National 3D Contest Elite League: National Second Prize; Provincial Special Prize; two Provincial First Prizes</li>
+  <li><strong>National 3D Contest Elite League: National Second Prize</strong>; Provincial Special Prize; two Provincial First Prizes</li>
   <li>Shandong Mechanical and Electrical Product Innovation Design Competition: Provincial First Prize; Provincial Second Prize</li>
   <li>Shandong Equipment Manufacturing Innovation Competition: two Provincial Second Prizes; Provincial Third Prize</li>
   <li>National 3D Digital Innovative Design Competition: two Provincial Second Prizes</li>
@@ -58,10 +58,10 @@ order: 3
 
 <p class="award-subhead">Innovation awards</p>
 <ul class="award-compact">
-  <li><strong>Outstanding Star Scholarship for Innovation and Entrepreneurship Practice</strong> &mdash; First Prize (top 1/20 university-wide); Third Prize</li>
-  <li><strong>Dean's Award: Star of Scientific and Technological Innovation</strong></li>
-  <li><strong>Scientific and Technological Innovation Scholarship</strong> (two awards)</li>
-  <li><strong>National College Student Innovation and Entrepreneurship Training Program</strong> &mdash; High-efficiency vertical-axis wind turbine with local variable pitch; Excellent Project Completion</li>
+  <li>Outstanding Star Scholarship for Innovation and Entrepreneurship Practice &mdash; First Prize (top 1/20 university-wide); Third Prize</li>
+  <li>Dean's Award: Star of Scientific and Technological Innovation</li>
+  <li>Scientific and Technological Innovation Scholarship (two awards)</li>
+  <li>National College Student Innovation and Entrepreneurship Training Program &mdash; High-efficiency vertical-axis wind turbine with local variable pitch; Excellent Project Completion</li>
 </ul>
 
 ---
@@ -73,7 +73,7 @@ order: 3
 <article class="experience-item">
   <div class="experience-head experience-head--sm">
     <strong>Student Deputy Secretary, Youth League Committee</strong>
-    <time datetime="2024-04">Apr 2024 - Jun 2025</time>
+    <time datetime="2024-2025">2024-2025</time>
   </div>
   <p class="experience-org">State Key Laboratory of Fire Science, USTC</p>
 </article>
@@ -81,7 +81,7 @@ order: 3
 <article class="experience-item">
   <div class="experience-head experience-head--sm">
     <strong>Student Director, Youth Innovation and Entrepreneurship Center</strong>
-    <time datetime="2023-05">May 2023 - May 2024</time>
+    <time datetime="2023-2024">2023-2024</time>
   </div>
   <p class="experience-org">USTC Youth League Committee; Member, 12th Graduate Student Union Committee</p>
 </article>
@@ -89,7 +89,7 @@ order: 3
 <article class="experience-item">
   <div class="experience-head experience-head--sm">
     <strong>Executive Chair, Graduate Student Union</strong>
-    <time datetime="2023-04">Apr 2023 - Apr 2024</time>
+    <time datetime="2023-2024">2023-2024</time>
   </div>
   <p class="experience-org">State Key Laboratory of Fire Science, USTC; Secretary, self-organized Youth League branch</p>
 </article>
@@ -97,7 +97,7 @@ order: 3
 <article class="experience-item">
   <div class="experience-head experience-head--sm">
     <strong>Class Monitor, 2022 M.S. Cohort</strong>
-    <time datetime="2022-09">Sep 2022 - May 2023</time>
+    <time datetime="2022-2023">2022-2023</time>
   </div>
   <p class="experience-org">State Key Laboratory of Fire Science, USTC</p>
 </article>
@@ -105,7 +105,7 @@ order: 3
 <article class="experience-item">
   <div class="experience-head experience-head--sm">
     <strong>Military Training Instructor</strong>
-    <time datetime="2022-06">Jun 2022 - Jul 2022</time>
+    <time datetime="2022">2022</time>
   </div>
   <p class="experience-org">China University of Petroleum (East China)</p>
 </article>
@@ -113,7 +113,7 @@ order: 3
 <article class="experience-item">
   <div class="experience-head experience-head--sm">
     <strong>Class Monitor, Safety Engineering 1803</strong>
-    <time datetime="2021-09">Sep 2021 - Jun 2022</time>
+    <time datetime="2021-2022">2021-2022</time>
   </div>
   <p class="experience-org">College of Mechanical and Electronic Engineering, China University of Petroleum (East China)</p>
 </article>
@@ -121,25 +121,24 @@ order: 3
 <article class="experience-item">
   <div class="experience-head experience-head--sm">
     <strong>Student Science and Technology Association</strong>
-    <time datetime="2019-09">Sep 2019 - Sep 2021</time>
+    <time datetime="2019-2021">2019-2021</time>
   </div>
   <p class="experience-org">College of Mechanical and Electronic Engineering, China University of Petroleum (East China)</p>
-  <p>Vice President (Aug 2020 - Sep 2021); Minister, Innovation Training Department (Sep 2019 - Jul 2020).</p>
+  <p>Vice President (2020-2021); Minister, Innovation Training Department (2019-2020).</p>
 </article>
 
 </div>
 
 <p class="award-subhead">Selected honors</p>
 <ul class="award-compact">
-  <li><strong>Chinese Academy of Sciences Outstanding League Member</strong> (2023; top 1/15 university-wide)</li>
-  <li><strong>USTC Outstanding Graduate</strong>; <strong>Anhui Outstanding Graduate</strong> (2025)</li>
-  <li><strong>Shandong Outstanding Graduate</strong> (2022)</li>
+  <li><strong>Chinese Academy of Sciences Outstanding League Member</strong> (top 1/15 university-wide)</li>
+  <li><strong>USTC Outstanding Graduate</strong>; <strong>Anhui Outstanding Graduate</strong></li>
+  <li><strong>Shandong Outstanding Graduate</strong></li>
   <li>Outstanding League Cadre (4 awards); Outstanding League Member (5 awards); Outstanding Student Cadre (5 awards)</li>
   <li>Outstanding Student Backbone, Youth Innovation Center (2 awards)</li>
   <li>Outstanding Trainee, Young Marxists Training Program ("Six Haves" cohort)</li>
-  <li>Project Star, SKLFS Graduate Forum; Project Star, March 7 Charm Girls' Festival</li>
   <li>Outstanding Student Cadre, SKLFS Graduate Student Union</li>
-  <li>Outstanding Student (2019)</li>
+  <li>Outstanding Student</li>
 </ul>
 
 ---
@@ -159,7 +158,7 @@ order: 3
     <strong>Institute of International Exchange</strong>
     <time datetime="2022-01">Jan 2022 - Apr 2022</time>
   </div>
-  <p>Served as a Sustainable Development Goals (SDG) project assistant. Collected and analyzed target data, and authored project reports. Received a <strong>The Best Intern</strong> evaluation from the Chairman.</p>
+  <p>Served as a Sustainable Development Goals (SDG) project assistant. Collected and analyzed target data, and authored project reports. Received a <strong class="award-name">The Best Intern</strong> evaluation from the Chairman.</p>
   <p class="experience-result">International Exchange Scholarship</p>
 </article>
 
