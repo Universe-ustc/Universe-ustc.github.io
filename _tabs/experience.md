@@ -14,8 +14,9 @@ order: 3
   </div>
   <p class="experience-role">First Prize</p>
   <ul>
-    <li>Owned grant writing and tightened the competition narrative around product and technical claims for an AI oral-imaging diagnostic product.</li>
-    <li>Led visual design for posters and the product handbook used in outreach and review.</li>
+    <li>The team built Smile, an industrializable oral AI reading system that locates morphologically diverse teeth in clinical images and flags likely oral conditions.</li>
+    <li>The team trained the models on a self-collected, large-scale multimodal oral-imaging dataset spanning multiple regions, and framed the product for clinical deployment.</li>
+    <li>Led posters and the product handbook used in outreach and review.</li>
   </ul>
 </article>
 
