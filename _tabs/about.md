@@ -62,4 +62,4 @@ Before entering my PhD program, I spent three years in USTC's graduate program i
 - **Google Scholar:** [Profile](https://scholar.google.com/citations?user=MFgrZKwAAAAJ&hl=en)
 - **Semantic Scholar:** [Yijuan Liang](https://www.semanticscholar.org/author/2295277669)
 - **OpenAlex:** [A5133614168](https://openalex.org/A5133614168)
-- **Xiaohongshu:** [EITNLP Group](https://www.xiaohongshu.com/search_result?keyword=49763045103) (ID 49763045103)
+- **rednote:** [EITNLP Group](https://www.xiaohongshu.com/search_result?keyword=49763045103) (ID 49763045103)

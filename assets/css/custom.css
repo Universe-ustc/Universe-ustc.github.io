@@ -293,6 +293,7 @@ article .profile-home h1.profile-name {
   flex: 0 0 auto;
   width: 5.5rem;
   height: 5.5rem;
+  object-fit: contain;
   padding: 0.3rem;
   box-sizing: border-box;
   border-radius: 0.7rem;
