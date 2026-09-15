@@ -50,8 +50,8 @@ Before entering my PhD program, I spent three years in USTC's graduate program i
 ## Skills
 
 - **Programming:** Python, C, MATLAB
-- **Tech Stack:** LangGraph, LangSmith, DeepAgents, MCP, vLLM, LoRA, LLaMA-Factory, FAISS
-- **Software & Tools:** Cursor, VS Code, Codex, Claude Code, OpenClaw, Qoder, PyCharm, Thonny, LabVIEW, SolidWorks, CAD, SPSS, Stata, FDS, PyroSim
+- **Tech Stack:** LangGraph, LangSmith, DeepAgents, MCP, vLLM, LoRA, LLaMA-Factory, RAGFlow, FAISS
+- **Software & Tools:** Cursor, VS Code, Codex, Claude Code, OpenClaw, Qoder, n8n, PyCharm, Thonny, LabVIEW, SolidWorks, CAD, SPSS, Stata, FDS, PyroSim
 - **Certificates:** National Computer Rank Examination Level 2 (C) · Level 3 (Network Technology) · CSWA (SolidWorks) · Advanced 2D CAD Drafter · English Minor Certificate · Mandarin Proficiency Certificate
 
 ## Contact
