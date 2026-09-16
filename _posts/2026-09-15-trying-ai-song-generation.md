@@ -6,6 +6,7 @@ categories:
 tags:
   - ai-music
   - aisonggenerator
+  - waytoagi
   - rnb
   - hobby
   - experience
@@ -14,7 +15,7 @@ toc: false
 
 I recently heard an AI song called **Hard Road** by White Lee. It takes Li Bai's *Xing Lu Nan* (行路难, "Hard Is the Road") and turns it into an English track. The mood stuck with me — R&B-leaning, a little dramatic, and surprisingly listenable.
 
-I already like **R&B** and pop, so I wanted to try generating something myself. I used [AISongGenerator](https://aisonggenerator.music/zh).
+I already like **R&B** and pop, so I wanted to try generating something myself. I found [AISongGenerator](https://aisonggenerator.music/zh) in the [WayToAGI](https://www.waytoagi.com/) community and ran two short experiments.
 
 ---
 
@@ -24,9 +25,7 @@ I asked for a song based on the life of **Liu Rushi (柳如是)** — the late-M
 
 ![AISongGenerator workspace for 柳如是·寒柳](/assets/img/posts/aisonggenerator-liu-rushi.png)
 
-It does not have that *Hard Road* feel. I was still new to this, and I probably under-specified the sound I actually wanted.
-
-Still listenable. Just not the song in my head.
+It does not have that *Hard Road* feel. I was still new to this, and I probably under-specified the sound I actually wanted. Still listenable — just not the song in my head.
 
 ---
 
@@ -45,6 +44,6 @@ It is not the kind of abstract I wanted. Still, it sounds good.
 - Hearing a song you like is not the same as being able to recreate that feel on the first try.
 - A life-story brief did not get me close to *Hard Road*.
 - Asking for "abstract" did not get me the kind of abstract I wanted.
-- Both tracks are fine. The second one is the one I prefer.
+- Both tracks are listenable.
 
-Two short experiments, two songs I can share, and a clearer sense of how much steering these generators still need.
+Two short experiments, two songs I can share, and a clearer sense that these generators still need a lot of steering.
