@@ -55,10 +55,6 @@ order: 4
   </div>
   <p class="experience-role">Co-Lead</p>
   <p class="experience-org">USTC Bihe Cross-Disciplinary Innovation Youth Program</p>
-  <ul>
-    <li>Studied electrolyte migration and jet-fire behavior induced by phase change during lithium-ion battery thermal runaway.</li>
-    <li>Supported cross-disciplinary experiment design and analysis for battery safety under extreme thermal conditions.</li>
-  </ul>
 </article>
 
 <article class="experience-item">
@@ -67,10 +63,7 @@ order: 4
     <time datetime="2023-2024">2023-2024</time>
   </div>
   <p class="experience-role">Key Member</p>
-  <p class="experience-org">USTC Nestling Fund</p>
-  <ul>
-    <li>Contributed to digital-twin based visualization and emergency-prevention research for electrochemical energy-storage systems.</li>
-  </ul>
+  <p class="experience-org">USTC Nestling Fund (Chuying)</p>
 </article>
 
 <article class="experience-item">
@@ -79,10 +72,7 @@ order: 4
     <time datetime="2023-2024">2023-2024</time>
   </div>
   <p class="experience-role">Participant</p>
-  <p class="experience-org">USTC Nestling Fund</p>
-  <ul>
-    <li>Participated in developing a cloud-operated adaptive early-warning system for lithium-ion battery thermal runaway.</li>
-  </ul>
+  <p class="experience-org">USTC Nestling Fund (Chuying)</p>
 </article>
 
 </div>
