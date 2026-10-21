@@ -48,4 +48,41 @@ order: 4
   </ul>
 </article>
 
+<article class="experience-item">
+  <div class="experience-head">
+    <strong>Electrolyte Migration and Jet-Fire Mechanisms under Phase-Change Induction in Li-ion Battery Thermal Runaway</strong>
+    <time datetime="2023-2025">2023-2025</time>
+  </div>
+  <p class="experience-role">Co-Lead</p>
+  <p class="experience-org">USTC Bihe Cross-Disciplinary Innovation Youth Program</p>
+  <ul>
+    <li>Studied electrolyte migration and jet-fire behavior induced by phase change during lithium-ion battery thermal runaway.</li>
+    <li>Supported cross-disciplinary experiment design and analysis for battery safety under extreme thermal conditions.</li>
+  </ul>
+</article>
+
+<article class="experience-item">
+  <div class="experience-head">
+    <strong>Digital-Twin Visualization and Emergency Control for Electrochemical Energy Storage</strong>
+    <time datetime="2023-2024">2023-2024</time>
+  </div>
+  <p class="experience-role">Key Member</p>
+  <p class="experience-org">USTC Nestling Fund</p>
+  <ul>
+    <li>Contributed to digital-twin based visualization and emergency-prevention research for electrochemical energy-storage systems.</li>
+  </ul>
+</article>
+
+<article class="experience-item">
+  <div class="experience-head">
+    <strong>Cloud-Controlled Adaptive Early Warning for Li-ion Battery Thermal Runaway</strong>
+    <time datetime="2023-2024">2023-2024</time>
+  </div>
+  <p class="experience-role">Participant</p>
+  <p class="experience-org">USTC Nestling Fund</p>
+  <ul>
+    <li>Participated in developing a cloud-operated adaptive early-warning system for lithium-ion battery thermal runaway.</li>
+  </ul>
+</article>
+
 </div>
