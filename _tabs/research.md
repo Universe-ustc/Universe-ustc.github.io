@@ -31,7 +31,7 @@ order: 2
     <strong>Bring Future Vision: Dynamic Computation Allocation Guided by Lightweight Feature Forecaster</strong><br>
     Chao Han, <u>Yijuan Liang</u>, Zihao Xuan, Daokuan Wu, Wei Zhang, Xiaoyu Shen<br>
     <em>Proceedings of the 43rd International Conference on Machine Learning (ICML 2026)</em><br>
-    <a href="https://arxiv.org/abs/2510.13831" target="_blank" rel="noopener">Paper</a> ·
+    <a href="https://proceedings.mlr.press/v306/han26p.html" target="_blank" rel="noopener">Paper</a> ·
     <a href="https://github.com/EIT-NLP/informed-routing" target="_blank" rel="noopener">Code</a>
   </li>
   <li>
