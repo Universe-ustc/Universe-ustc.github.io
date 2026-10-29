@@ -13,19 +13,19 @@ tags:
 toc: true
 ---
 
-I spent 24–25 October at [Watcha 2026](https://dahui.watcha.cn/) in Hangzhou's Longwu tea-town halls. The official line was "watch creation happen." For me it was simpler: walk the floor, try the hardware I had only seen in videos, sit in a few talks — and finally enter a hackathon.
+I spent 24–25 October at [Watcha 2026](https://dahui.watcha.cn/) in Hangzhou's Longwu tea-town halls. The official line was "watch creation happen." For me it was simpler: walk the whole floor, talk to people I had only followed online, sit in a few talks — and finally enter a hackathon.
+
+I had already been watching a lot of AI products on the Watcha community — software as much as hardware. On site I spent a lot of that time with OPC people and company staff: what they claimed as an advantage, how the product actually works, and how they make money. I wanted those pieces so I could move them onto things I want to build.
 
 ![Watcha booth at the 2026 conference](/assets/img/posts/watcha-2026-booth.png)
-
-I had the Watcher badge, a pixel-bear lanyard, and two full days. That already felt like enough of a souvenir. The rest of the weekend was louder.
 
 ![Watcher badge and merch at 猹话会](/assets/img/posts/watcha-2026-badge.png)
 
 ## Two days on the floor
 
-The expo pass covered 100+ booths across six tracks. I did not try to "finish" the hall. I drifted, talked, and put my hands on things.
+The expo pass covered 100+ booths across six tracks. I walked the whole hall.
 
-Two I had wanted to try for a long time: **Alipay's AI glasses**, and **Ascentiz's powered exoskeleton**. Both are the kind of product that looks obvious in a clip and slightly strange on your own face or back. Around them sat a lot of other AI software and hardware shapes — docks, wearables, agent demos, things that want to live on a desk or in a pocket. I also walked out with more gifts than I planned: a Watcha blind-box, Lenovo's Xiangbangbang (想帮帮) mouse, Xiaomi's HachimoDock, and a pile of smaller bits.
+I was not hunting for a particular brand. **Alipay's AI glasses** and **Ascentiz's powered exoskeleton** happened to be there, so I tried them. On the glasses I used the nod-to-pay feature. The exo has some weight; after I ran a lap, I could still feel my thighs being lifted — that leftover inertia. Around them sat a lot of other AI software and hardware — docks, wearables, agent demos, things that want to live on a desk or in a pocket. I also walked out with more gifts than I planned: a Watcha blind-box, Lenovo's Xiangbangbang mouse, Xiaomi's HachimoDock, and a pile of smaller bits.
 
 I sat the on-site **AI exam** as well. 50 questions from Watcha's instructors. I scored **96 / 100** and got the AI Pioneer certificate. That was a nice, concrete stamp in a weekend that was otherwise all motion.
 
