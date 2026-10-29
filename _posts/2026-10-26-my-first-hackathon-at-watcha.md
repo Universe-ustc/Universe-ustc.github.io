@@ -29,9 +29,9 @@ I was not hunting for a particular brand. **Alipay's AI glasses** and **Ascentiz
 
 I sat the on-site **AI exam** as well: 50 questions. I scored **96 / 100** and got the AI Pioneer certificate.
 
-On the 24th I went to the [Alipay AI Pay forum](https://watcha.cn/activities/dahui2026-aipay). That is where I learned how an AI product can take in revenue more easily. I also went to the [Founder AMA](https://watcha.cn/activities/dahui2026-expo).
+On the morning of the 25th I went to the [Alipay AI Pay forum](https://watcha.cn/activities/dahui2026-aipay). That is where I learned how an AI product can take in revenue more easily. I also went to the [Founder AMA](https://watcha.cn/activities/dahui2026-expo). I still came away with a lot from listening.
 
-The 25th afternoon was the part I had been waiting for.
+The afternoon was the part I had been waiting for.
 
 ## Ninety minutes, first hackathon
 
