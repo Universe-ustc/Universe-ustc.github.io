@@ -78,7 +78,7 @@ Other people who pitched had also hit bugs. They still showed up with a Skill **
 
 The room voted. I did not place. That was the expected ending for a first hackathon pitched from a document.
 
-I posted the stage photo to WeChat Moments anyway. A fourth-year graduate student asked if there was a GitHub link — she said the idea would actually help her. That question is why I finished the repo instead of leaving it as a 90-minute draft.
+I posted the stage photo to WeChat Moments anyway. A second-year graduate student asked if there was a GitHub link — she said the idea would actually help her. That question is why I finished the repo instead of leaving it as a 90-minute draft.
 
 If you also have a messy folder and an Agent that can load Skills, the package is here: [github.com/Universe-ustc/auto-organizer](https://github.com/Universe-ustc/auto-organizer).
 
