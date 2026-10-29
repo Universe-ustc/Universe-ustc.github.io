@@ -169,6 +169,7 @@ order: 3
   <li>Outstanding Trainee, Young Marxists Training Program (Qingma)</li>
   <li>Outstanding Student Cadre, SKLFS Graduate Student Union</li>
   <li>Outstanding Student</li>
+  <li>USTC Nestling Fund (Chuying) Outstanding Project Completion (2 awards)</li>
 </ul>
 
 ---

@@ -38,9 +38,8 @@ order: 4
     <strong>Smile: AI-Assisted Oral Imaging Diagnosis</strong>
     <time datetime="2023-2024">2023-2024</time>
   </div>
-  <p class="experience-role">Core Contributor</p>
+  <p class="experience-role">Outstanding Project Completion</p>
   <p class="experience-org">USTC Eagle Fund (Xiongying)</p>
-  <p class="experience-result">Outstanding Project Completion</p>
   <ul>
     <li>Smile locates morphologically diverse teeth in clinical images and flags likely oral conditions, as a deployable oral AI reading system.</li>
     <li>Models were trained on a self-collected, large-scale multimodal oral-imaging dataset spanning multiple regions and deployed into clinical workflows.</li>
@@ -62,7 +61,7 @@ order: 4
     <strong>Digital-Twin Visualization and Emergency Control for Electrochemical Energy Storage</strong>
     <time datetime="2023-2024">2023-2024</time>
   </div>
-  <p class="experience-role">Key Member</p>
+  <p class="experience-role">Outstanding Project Completion</p>
   <p class="experience-org">USTC Nestling Fund (Chuying)</p>
 </article>
 
@@ -71,7 +70,7 @@ order: 4
     <strong>Cloud-Controlled Adaptive Early Warning for Li-ion Battery Thermal Runaway</strong>
     <time datetime="2023-2024">2023-2024</time>
   </div>
-  <p class="experience-role">Participant</p>
+  <p class="experience-role">Outstanding Project Completion</p>
   <p class="experience-org">USTC Nestling Fund (Chuying)</p>
 </article>
 
