@@ -25,7 +25,7 @@ I had the Watcher badge, a pixel-bear lanyard, and two full days. That already f
 
 The expo pass covered 100+ booths across six tracks. I did not try to "finish" the hall. I drifted, talked, and put my hands on things.
 
-Two I had wanted to try for a long time: **Alipay's AI glasses**, and **Ascentiz's powered exoskeleton**. Both are the kind of product that looks obvious in a clip and slightly strange on your own face or back. Around them sat a lot of other AI software and hardware shapes — docks, wearables, agent demos, things that want to live on a desk or in a pocket. I also walked out with more gifts than I planned: a Watcha blind-box, a mouse, Xiaomi's HachimoDock, and a pile of smaller bits.
+Two I had wanted to try for a long time: **Alipay's AI glasses**, and **Ascentiz's powered exoskeleton**. Both are the kind of product that looks obvious in a clip and slightly strange on your own face or back. Around them sat a lot of other AI software and hardware shapes — docks, wearables, agent demos, things that want to live on a desk or in a pocket. I also walked out with more gifts than I planned: a Watcha blind-box, Lenovo's Xiangbangbang (想帮帮) mouse, Xiaomi's HachimoDock, and a pile of smaller bits.
 
 I sat the on-site **AI exam** as well. 50 questions from Watcha's instructors. I scored **96 / 100** and got the AI Pioneer certificate. That was a nice, concrete stamp in a weekend that was otherwise all motion.
 
