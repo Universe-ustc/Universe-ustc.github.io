@@ -41,13 +41,13 @@ I wanted to build a file auto-organizer. I like organizing. For people who run e
 
 The hall Wi-Fi disagreed.
 
-Cursor would not stay usable, so I downloaded **Tianxi AI** on the spot. Lenovo was pushing it hard; it is supposed to be the on-device "super partner." In those 90 minutes it felt like an unfinished product that had been asked to host a contest.
+Cursor would not stay usable, so I downloaded **Tianxi AI** on the spot. They wanted to promote it.
 
 I lost the thread **twice**.
 
 The first time, I had just installed the app and started building. I was close to a working Skill. Then a login wall popped up. After I signed in, the history was empty. The conversation I had been living in was gone.
 
-The second time, I rebuilt enough of the work to keep going — and then noticed the default chat mode cannot call tools. I switched to 超能模式. That opened a **new session**. The old one was still there, somewhere else. I stayed in the 超能模式 window and finished the Skill there.
+The second time, I rebuilt enough of the work to keep going — and then noticed the default chat mode cannot call tools. I switched to Super mode. That opened a **new session**. The old one was still there, somewhere else. I stayed in the Super mode window and finished the Skill there.
 
 I almost quit. I submitted anyway, and I still signed up to pitch.
 
